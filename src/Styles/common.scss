@@ -1,0 +1,16 @@
+// 상의하면서 추가.
+%flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+%flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
