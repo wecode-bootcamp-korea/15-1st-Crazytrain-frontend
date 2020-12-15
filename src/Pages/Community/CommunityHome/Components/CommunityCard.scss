@@ -1,0 +1,97 @@
+@import "../../../../Styles/common.scss";
+
+.CommunityCard {
+  @extend %flex-align-center;
+  flex-direction: column;
+  width: 100%;
+  height: 480px;
+
+  header {
+    @extend %flex-align-center;
+    width: 100%;
+    margin-bottom: 15px;
+
+    img {
+      width: 40px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+
+    span.follow {
+      margin-left: 5px;
+      font-weight: bold;
+      color: #34c5ef;
+    }
+  }
+
+  .cardImage {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+
+      &.zoom {
+        transform: scale(1.1);
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    span {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.34);
+      color: white;
+    }
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 15px;
+
+    .column {
+      @extend %flex-align-center;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      img {
+        width: 25px;
+        margin-right: 7px;
+      }
+    }
+  }
+
+  .content {
+    margin-bottom: 15px;
+  }
+  .comments {
+    @extend %flex-align-center;
+    justify-content: flex-start;
+
+    img {
+      width: 25px;
+      margin-right: 7px;
+      border-radius: 50%;
+    }
+
+    span {
+      strong {
+        font-weight: bold;
+        margin-right: 7px;
+      }
+    }
+  }
+}

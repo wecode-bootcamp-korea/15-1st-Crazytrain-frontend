@@ -1,0 +1,13 @@
+@import "../../../../Styles/common.scss";
+
+.setVague {
+  opacity: 0.5;
+}
+
+.CommunityCardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 25px;
+  row-gap: 40px;
+  margin-top: 20px;
+}
