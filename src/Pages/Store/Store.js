@@ -1,4 +1,6 @@
 import React from "react";
+import Category from "./Category/Category";
+import "./Store.scss";
 
 class Store extends React.Component {
   constructor(props) {
@@ -6,7 +8,14 @@ class Store extends React.Component {
     this.state = {};
   }
   render() {
-    return <div>haha</div>;
+    return (
+      <>
+        <nav></nav>
+        <div className="Store">
+          <Category />
+        </div>
+      </>
+    );
   }
 }
 

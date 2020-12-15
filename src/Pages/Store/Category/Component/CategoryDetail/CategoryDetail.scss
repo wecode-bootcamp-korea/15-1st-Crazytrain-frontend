@@ -1,0 +1,52 @@
+.CategoryDetail {
+  padding-bottom: 10px;
+
+  .listContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+    button {
+      background-color: white;
+      border: none;
+      outline: none;
+
+      .upIcon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .expand {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    ul {
+      .expandTree {
+        height: 20px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #424242;
+
+        a:hover {
+          color: #d7d7d7;
+        }
+      }
+    }
+
+    // @keyframes slideOutLeft {
+    //   0% {
+    //     transform: translateY(-50%);
+    //   }
+    //   100% {
+    //     transform: translateY(0);
+    //   }
+    // }
+
+    // & .slideOutLeft {
+    //   animation-duration: 1s;
+    //   animation-fill-mode: both;
+    //   animation-name: slideOutLeft;
+    // }
+  }
+}
