@@ -15,6 +15,16 @@
       width: 40px;
       margin-right: 10px;
       border-radius: 50%;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    span {
+      &:hover {
+        opacity: 0.5;
+      }
     }
 
     span.follow {
@@ -35,10 +45,6 @@
       height: 100%;
       object-fit: cover;
       transition: transform 0.3s ease;
-
-      &.zoom {
-        transform: scale(1.1);
-      }
 
       &:hover {
         transform: scale(1.1);
@@ -76,6 +82,10 @@
 
   .content {
     margin-bottom: 15px;
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
   .comments {
     @extend %flex-align-center;
@@ -85,12 +95,20 @@
       width: 25px;
       margin-right: 7px;
       border-radius: 50%;
+
+      &:hover {
+        opacity: 0.5;
+      }
     }
 
     span {
       strong {
         font-weight: bold;
         margin-right: 7px;
+
+        &:hover {
+          opacity: 0.5;
+        }
       }
     }
   }

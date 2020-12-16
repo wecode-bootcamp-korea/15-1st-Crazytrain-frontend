@@ -8,33 +8,9 @@ class CommunityCardList extends React.Component {
     return (
       <div className="CommunityCardGrid">
         {communityCards &&
-          communityCards.map(
-            ({
-              id,
-              userName,
-              profileImage,
-              image,
-              content,
-              comments,
-              likes,
-              bookmarks,
-              views,
-            }) => {
-              return (
-                <CommunityCard
-                  id={id}
-                  userName={userName}
-                  profileImage={profileImage}
-                  image={image}
-                  content={content}
-                  comments={comments}
-                  likes={likes}
-                  bookmarks={bookmarks}
-                  views={views}
-                />
-              );
-            }
-          )}
+          communityCards.map(communityCard => (
+            <CommunityCard communityCard={communityCard} />
+          ))}
       </div>
     );
   }
