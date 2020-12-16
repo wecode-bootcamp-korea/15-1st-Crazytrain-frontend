@@ -1,0 +1,14 @@
+.ProductItem {
+  border: 1px solid black;
+  width: 160px;
+
+  .itemImage {
+    height: 152px;
+    background-color: aqua;
+  }
+
+  .itemContent {
+    height: 123px;
+    background-color: chartreuse;
+  }
+}
