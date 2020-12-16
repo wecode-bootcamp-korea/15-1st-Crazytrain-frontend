@@ -1,0 +1,21 @@
+.CategoryContent {
+  width: 900px;
+  border: 3px solid;
+
+  .ContentHeader {
+    height: 310px;
+    background-color: red;
+  }
+  .ContentMdpick {
+    height: 350px;
+    background-color: blue;
+  }
+  .ContentFilter {
+    height: 100px;
+    background-color: green;
+  }
+  .ContentRow {
+    height: 1200px;
+    background-color: yellow;
+  }
+}

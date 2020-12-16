@@ -7,28 +7,5 @@
   .categoryContainer {
     @extend %flex-justify-center;
     margin-top: 40px;
-
-    .categorySidebar {
-      width: 160px;
-      margin-right: 140px;
-
-      .selectCategory {
-        font-size: 20px;
-        font-weight: 700;
-        margin-bottom: 20px;
-      }
-
-      .categoryDetailContainer {
-        margin-bottom: 25px;
-        border-bottom: solid 1px #dbdbdb;
-        background-color: white;
-      }
-    }
-
-    .categoryContent {
-      width: 900px;
-      height: 1200px;
-      background-color: blueviolet;
-    }
   }
 }

@@ -14,7 +14,6 @@ class CategoryDetail extends Component {
     this.setState({
       clicked: !this.state.clicked,
     });
-    // console.log(this.state.clicked);
   };
 
   render() {
@@ -29,7 +28,6 @@ class CategoryDetail extends Component {
               className={this.state.clicked ? "upIcon" : ""}
               width="12"
               height="12"
-              // fill="currentColor" // 색상 설정
             >
               <path d="M6.07 7.56l4.39-4.55.87.87-5.25 5.45L.67 3.9 1.53 3z"></path>
             </svg>

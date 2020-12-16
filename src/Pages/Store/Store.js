@@ -3,14 +3,10 @@ import Category from "./Category/Category";
 import "./Store.scss";
 
 class Store extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
     return (
       <>
-        <nav></nav>
+        <nav>네비게이션 없으니 눈이 불편하구나....</nav>
         <div className="Store">
           <Category />
         </div>
