@@ -12,6 +12,7 @@ class CommunityCard extends React.Component {
   }
 
   toggleProfileVague = () => {
+    // console.log(`toggle happened!: ${this.state.isMouseOnProfile}`);
     this.setState({
       isMouseOnProfile: !this.state.isMouseOnProfile,
     });
@@ -24,12 +25,16 @@ class CommunityCard extends React.Component {
   };
 
   toggleCommentVague = () => {
-    console.log("comment");
     this.setState({
       isMouseOnComment: !this.state.isMouseOnComment,
     });
   };
+
+  componentDidUpdate() {
+    // console.log("componentDidUpdate가 일어났다!");
+  }
   render() {
+    // console.log("렌더가 일어났다!");
     const {
       id,
       userName,

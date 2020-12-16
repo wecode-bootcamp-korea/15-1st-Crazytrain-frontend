@@ -179,42 +179,6 @@
       "likes": 130,
       "bookmarks": 181,
       "views": "13,759"
-    },
-    {
-      "id": 10,
-      "userName": "지혜(눈똥)",
-      "profileImage": "/images/community/sampleImage1.jpg",
-      "image": "/images/community/sampleImage2.jpg",
-      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
-      "comments": [
-        {
-          "id": 0,
-          "userName": "amyyyy17",
-          "profileImage": "/images/community/sampleImage3.jpg",
-          "content": "넘 예뻐요~~~ 제 스타일!!!"
-        }
-      ],
-      "likes": 130,
-      "bookmarks": 181,
-      "views": "13,759"
-    },
-    {
-      "id": 11,
-      "userName": "지혜(눈똥)",
-      "profileImage": "/images/community/sampleImage1.jpg",
-      "image": "/images/community/sampleImage2.jpg",
-      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
-      "comments": [
-        {
-          "id": 0,
-          "userName": "amyyyy17",
-          "profileImage": "/images/community/sampleImage3.jpg",
-          "content": "넘 예뻐요~~~ 제 스타일!!!"
-        }
-      ],
-      "likes": 130,
-      "bookmarks": 181,
-      "views": "13,759"
     }
   ]
 }

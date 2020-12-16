@@ -1,0 +1,74 @@
+@import "../../../../Styles/common.scss";
+
+.FilterCard {
+  position: relative;
+
+  .filter {
+    @extend %flex-center;
+    margin-right: 5px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+
+    svg {
+      margin-left: 5px;
+    }
+  }
+
+  .filterCardWrapper {
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 100px);
+    padding-top: 20px;
+    background-color: white;
+    z-index: 200;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.1s linear;
+
+    &:hover {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .filter:hover ~ .filterCardWrapper {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .filterSub {
+    width: 200px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 11px 5px rgba(0, 0, 0, 0.38);
+    box-sizing: border-box;
+    cursor: pointer;
+
+    max-height: 500px;
+    overflow: scroll;
+
+    &:after {
+      border-top: 0px solid transparent;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid white;
+      content: "";
+      position: absolute;
+      left: calc(50% - 10px);
+      top: 10px;
+    }
+
+    .subName {
+      color: #4b4b4b;
+      padding: 30px 0;
+    }
+  }
+}

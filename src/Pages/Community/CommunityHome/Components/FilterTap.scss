@@ -2,16 +2,4 @@
 
 .communityFilter {
   @extend %flex-align-center;
-  height: 70px;
-  background-color: white;
-
-  div {
-    @extend %flex-center;
-    margin-right: 5px;
-    padding: 10px;
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    font-weight: bold;
-    opacity: 0.5;
-  }
 }

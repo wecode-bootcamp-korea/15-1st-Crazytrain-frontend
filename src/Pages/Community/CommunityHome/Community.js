@@ -26,7 +26,7 @@ class Community extends React.Component {
       <>
         <nav>여기에는 이후에 완성된 네비게이션 컴포넌트가 올껍니다!</nav>
         <main className="communityBody">
-          <div className="wrapper">
+          <div className="communityWrapper">
             <FilterTap />
             <CommunityCardList communityCards={this.state.communityCards} />
           </div>
