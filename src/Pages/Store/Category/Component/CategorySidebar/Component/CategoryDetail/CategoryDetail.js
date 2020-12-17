@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./CategoryDetail.scss";
 
+const TEST_SUB_SUB_CATEGORYS = ["test1", "test2", "test3", "test4", "test5"];
+
 class CategoryDetail extends Component {
   constructor(props) {
     super(props);
@@ -35,18 +37,13 @@ class CategoryDetail extends Component {
         </div>
         <div className="expand">
           <ul className={this.state.clicked ? "slideOutLeft" : "hideBox"}>
-            <li className="expandTree">
-              <Link to="#">test1</Link>
-            </li>
-            <li className="expandTree">
-              <Link to="#">test2</Link>
-            </li>
-            <li className="expandTree">
-              <Link to="#">test3</Link>
-            </li>
-            <li className="expandTree">
-              <Link to="#">test4</Link>
-            </li>
+            {TEST_SUB_SUB_CATEGORYS.map((categories, index) => {
+              return (
+                <li key={index} className="expandTree">
+                  <Link to="#">{categories}</Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </li>
