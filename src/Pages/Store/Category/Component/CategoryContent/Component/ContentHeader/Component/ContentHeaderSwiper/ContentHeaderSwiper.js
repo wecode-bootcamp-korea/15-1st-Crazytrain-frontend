@@ -5,9 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/swiper.scss";
-import "swiper/components/navigation/navigation.scss";
-import "swiper/components/pagination/pagination.scss";
-import "swiper/components/scrollbar/scrollbar.scss";
+import "./navigation.scss";
+import "./pagination.scss";
 import "./ContentHeaderSwiper.scss";
 
 // install Swiper components
@@ -25,8 +24,6 @@ class ContentHeaderSwiper extends Component {
         pagination={{ clickable: true }}
         loop={true}
         autoplay={true}
-        // onSwiper={swiper => console.log(swiper)}
-        // onSlideChange={() => console.log("slide change")}
       >
         <SwiperSlide className="ContentHeaderSwiperSlide">
           <div className="test">test1</div>
