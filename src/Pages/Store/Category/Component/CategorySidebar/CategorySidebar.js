@@ -8,54 +8,64 @@ class CategorySidebar extends Component {
     super(props);
     this.state = {
       categories: [],
+      selectCategory: {},
+      unSelectCategory: [],
       categoryId: 0,
     };
   }
 
   clickCategory = e => {
-    this.setState({ categoryId: Number(e.target.id) });
+    this.selectCategory(Number(e.target.id));
   };
 
   componentDidMount() {
+    const { categoryId } = this.state;
     fetch("/data/store/data.json")
       .then(response => response.json())
       .then(result => {
-        this.setState({
-          categories: result.categories,
-        });
+        this.setState(
+          {
+            categories: result.categories,
+          },
+          () => {
+            this.selectCategory(categoryId);
+          }
+        );
       });
   }
 
+  selectCategory = id => {
+    const { categories } = this.state;
+    this.setState({
+      selectCategory: categories.filter(
+        category => category.categoryId === id
+      )[0],
+      unSelectCategory: categories.filter(
+        category => category.categoryId !== id
+      ),
+    });
+  };
+
   render() {
-    const { categories, categoryId } = this.state;
+    const { selectCategory, unSelectCategory } = this.state;
     const { clickCategory } = this;
-    const selectCategory =
-      categories &&
-      categories.filter(category => category.categoryId === categoryId);
-    const unSelectCategory =
-      categories &&
-      categories.filter(category => category.categoryId !== categoryId);
 
     return (
       <div className="CategorySidebar">
-        <h2 className="selectCategory">
-          {selectCategory[0] && selectCategory[0].category}
-        </h2>
+        <h2 className="selectCategory">{selectCategory?.category}</h2>
         <ul className="categoryDetailContainer">
-          {selectCategory[0] &&
-            selectCategory[0].subCategory.map((item, index) => (
-              <CategoryDetail category={item} key={index} />
-            ))}
+          {selectCategory.subCategory?.map((item, index) => (
+            <CategoryDetail category={item} key={index} />
+          ))}
         </ul>
         <ul className="categoryList">
-          {unSelectCategory &&
-            unSelectCategory.map((category, index) => (
-              <CategoryListItem
-                key={index}
-                category={category}
-                clickCategory={clickCategory}
-              />
-            ))}
+          {unSelectCategory?.map((category, index) => (
+            <CategoryListItem
+              key={index}
+              category={category}
+              clickCategory={clickCategory}
+            />
+          ))}
         </ul>
       </div>
     );
