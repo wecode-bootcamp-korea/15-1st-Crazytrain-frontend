@@ -6,11 +6,13 @@ class ProductItem extends Component {
   render() {
     return (
       <article className="ProductItem">
-        <Link to="#" className="itemOverlay">
-          test
-        </Link>
-        <div className="itemImage"></div>
-        <div className="itemContent"></div>
+        <Link to="#" className="itemOverlay" />
+        <img
+          src="./images/store/gaming_chair.jpg"
+          alt="gaming_chair"
+          className="itemImage"
+        />
+        <div className="itemContent">test</div>
       </article>
     );
   }
