@@ -1,11 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import "./FilterTapCard.scss";
 
-class FilterTapCard extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+class FilterTapCard extends Component {
   render() {
     const { id, name, subTap } = this.props.filterTapCard;
     return (
@@ -20,7 +16,22 @@ class FilterTapCard extends React.Component {
           <span className="filterCardWrapper">
             <div className="filterSub">
               {subTap.map(tap => {
-                return <div className="subName">{tap.name}</div>;
+                return (
+                  <div
+                    className="subContainer"
+                    onClick={() => this.props.addFilter(tap)}
+                  >
+                    {id === 5 ? (
+                      <div
+                        className="color"
+                        style={{ backgroundColor: `${tap.hashId}` }}
+                      ></div>
+                    ) : (
+                      ""
+                    )}
+                    <span className="subName">{tap.name}</span>
+                  </div>
+                );
               })}
             </div>
           </span>
