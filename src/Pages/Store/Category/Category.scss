@@ -1,0 +1,11 @@
+@import "../../../Styles/common.scss";
+
+.Category {
+  position: relative;
+  //얘는 전체 영역
+
+  .categoryContainer {
+    @extend %flex-justify-center;
+    margin-top: 40px;
+  }
+}

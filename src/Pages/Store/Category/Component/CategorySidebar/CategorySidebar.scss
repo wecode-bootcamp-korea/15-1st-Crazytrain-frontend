@@ -1,0 +1,16 @@
+.CategorySidebar {
+  width: 160px;
+  margin-right: 140px;
+
+  .selectCategory {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .categoryDetailContainer {
+    margin-bottom: 25px;
+    border-bottom: solid 1px #dbdbdb;
+    background-color: white;
+  }
+}
