@@ -1,0 +1,41 @@
+@import "../../../../Styles/common.scss";
+
+.FilterSelected {
+  @extend %flex-align-center;
+  margin-top: 10px;
+
+  .container {
+    @extend %flex-center;
+    height: 30px;
+    margin-right: 10px;
+    padding: 0 10px;
+    background-color: #3cb0eb;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+
+    .colors {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+
+    .closeBtn {
+      @extend %flex-center;
+      width: 15px;
+      height: 15px;
+      margin-left: 5px;
+      background-color: white;
+      border-radius: 50%;
+      font-size: 12px;
+      color: #3cb0eb;
+      cursor: pointer;
+    }
+  }
+  .initialize {
+    margin-left: 15px;
+    font-weight: bold;
+    color: #3cb0eb;
+    cursor: pointer;
+  }
+}

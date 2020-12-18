@@ -10,15 +10,33 @@ class FilterTap extends Component {
   };
 
   addFilter = tap => {
-    // let index = -1;
-    // for (let element of this.state.selecetedFilter) {
-    //   if (element.tapId === tap.tapId) {
-    //     index = this.state.selectedFilter.indexOf(element);
-    //   }
-    // }
-    // this.setState({
-    //   selectedFilter: [...this.state.selectedFilter, tap.name],
-    // });
+    const newFilter = [...this.state.selectedFilter];
+    let index = -1;
+    for (let i = 0; i < newFilter.length; i++) {
+      if (newFilter[i].tapId === tap.tapId) {
+        index = i;
+        break;
+      }
+    }
+    if (index !== -1) newFilter.splice(index, 1);
+    newFilter.push(tap);
+    this.setState({
+      selectedFilter: newFilter,
+    });
+  };
+
+  clearFilter = () => {
+    this.setState({
+      selectedFilter: [],
+    });
+  };
+
+  deleteFilter = targetFilter => {
+    const newFilter = [...this.state.selectedFilter];
+    newFilter.splice(newFilter.indexOf(targetFilter), 1);
+    this.setState({
+      selectedFilter: newFilter,
+    });
   };
 
   render() {
@@ -35,7 +53,11 @@ class FilterTap extends Component {
             );
           })}
         </section>
-        <FilterSelected selectedFilter={this.state.selectedFilter} />
+        <FilterSelected
+          selectedFilter={this.state.selectedFilter}
+          clearFilter={this.clearFilter}
+          deleteFilter={this.deleteFilter}
+        />
       </>
     );
   }
