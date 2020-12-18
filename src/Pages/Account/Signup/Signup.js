@@ -87,22 +87,22 @@ class Signup extends React.Component {
                   <span className="checkBoxSign">전체동의</span>
                 </div>
                 <div className="fourCheck">
-                  <div className="fourTeen">
+                  <div className="sameRule">
                     <input className="checkBox" type="checkbox" />
                     <span className="moreFourTeen">만 14세 이상입니다.</span>
                     <span className="essentional">(필수)</span>
                   </div>
-                  <div className="explainRule">
+                  <div className="sameRule">
                     <input className="checkBox" type="checkbox" />
                     <span className="explaingRuleUnderline">이용약관</span>
                     <span className="essentional">(필수)</span>
                   </div>
-                  <div className="personalInfo">
+                  <div className="sameRule">
                     <input className="checkBox" type="checkbox" />
                     <span className="infoUser">개인정보처리방침</span>
                     <span className="essentional">(필수)</span>
                   </div>
-                  <div className="messageGet">
+                  <div className="sameRule">
                     <input className="checkBox" type="checkbox" />
                     <span className="messageEvent">
                       이벤트, 프로모션 알림 메일 및 SMS 수신.

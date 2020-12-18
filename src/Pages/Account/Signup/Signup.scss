@@ -4,8 +4,7 @@
 }
 
 .signUpFullPage {
-  align-items: center;
-  justify-content: center;
+  @extend %flex-center;
   width: auto;
 
   .smallContainer {
@@ -184,22 +183,7 @@
     color: #424242;
     line-height: 18px;
 
-    .fourTeen {
-      display: flex;
-      align-items: center;
-      margin-bottom: 7px;
-    }
-    .explainRule {
-      display: flex;
-      align-items: center;
-      margin-bottom: 7px;
-    }
-    .personalInfo {
-      display: flex;
-      align-items: center;
-      margin-bottom: 7px;
-    }
-    .messageGet {
+    .sameRule {
       display: flex;
       align-items: center;
       margin-bottom: 7px;
