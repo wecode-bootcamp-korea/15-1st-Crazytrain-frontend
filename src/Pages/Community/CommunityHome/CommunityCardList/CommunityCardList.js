@@ -7,7 +7,7 @@ class CommunityCardList extends React.Component {
   render() {
     const { communityCards } = this.props;
     const communityCardList = communityCards?.map(communityCard => (
-      <CommunityCard communityCard={communityCard} />
+      <CommunityCard key={communityCard.id} communityCard={communityCard} />
     ));
     return (
       <InfiniteScroll

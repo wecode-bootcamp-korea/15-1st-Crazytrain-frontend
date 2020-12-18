@@ -7,7 +7,11 @@ class FilterTapCard extends Component {
     const isSelectedClassNeeded = this.props.isSelected ? "selected" : "";
     const subTapList = subTap.map(tap => {
       return (
-        <div className="subContainer" onClick={() => this.props.addFilter(tap)}>
+        <div
+          key={tap.id}
+          className="subContainer"
+          onClick={() => this.props.addFilter(tap)}
+        >
           {id === 5 ? (
             <div
               className="color"
