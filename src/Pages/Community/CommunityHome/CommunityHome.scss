@@ -1,10 +1,11 @@
 @import "../../../Styles/common.scss";
+
 nav {
   background-color: lightgray;
   height: 150px;
 }
 
-.communityBody {
+.CommunityHome {
   @extend %flex-justify-center;
   height: 100vh;
   margin: 0px 40px;

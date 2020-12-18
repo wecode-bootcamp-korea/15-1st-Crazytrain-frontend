@@ -2,7 +2,7 @@
 
 .FilterSelected {
   @extend %flex-align-center;
-  margin-top: 10px;
+  margin-top: 20px;
 
   .container {
     @extend %flex-center;
@@ -32,7 +32,7 @@
       cursor: pointer;
     }
   }
-  .initialize {
+  .initializeButton {
     margin-left: 15px;
     font-weight: bold;
     color: #3cb0eb;

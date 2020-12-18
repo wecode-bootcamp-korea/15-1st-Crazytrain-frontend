@@ -48,7 +48,7 @@ class CommunityCard extends React.Component {
           />
           <span>
             <strong className="addCursor">{comments[0].userName}</strong>
-            {comments[0].content}
+            <span className="addCursor">{comments[0].content}</span>
           </span>
         </section>
       </div>

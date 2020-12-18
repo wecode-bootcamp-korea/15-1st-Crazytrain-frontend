@@ -40,19 +40,25 @@ class FilterTap extends Component {
   };
 
   render() {
+    const selectedList = this.state.selectedFilter.map(
+      element => element.tapId
+    );
+
+    const filterTapCardList = FilterTapData.map((element, index) => {
+      const isSelected = selectedList.includes(element.id);
+      return (
+        <FilterTapCard
+          key={index}
+          isSelected={isSelected}
+          filterTapCard={element}
+          addFilter={this.addFilter}
+          selectedFilter={this.state.selectedFilter}
+        />
+      );
+    });
     return (
       <>
-        <section className="communityFilter">
-          {FilterTapData.map((element, index) => {
-            return (
-              <FilterTapCard
-                key={index}
-                filterTapCard={element}
-                addFilter={this.addFilter}
-              />
-            );
-          })}
-        </section>
+        <section className="FilterTap">{filterTapCardList}</section>
         <FilterSelected
           selectedFilter={this.state.selectedFilter}
           clearFilter={this.clearFilter}
