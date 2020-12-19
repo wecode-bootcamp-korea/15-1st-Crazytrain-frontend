@@ -22,10 +22,10 @@ class CategoryDetail extends Component {
     const { category } = this.props;
 
     return (
-      <li className="CategoryDetail">
+      <li className="CategoryDetail" onClick={this.buttonClick}>
         <div className="listContainer addCursor">
           <Link to="#">{category}</Link>
-          <button onClick={this.buttonClick} className="addCursor">
+          <button className="addCursor">
             <svg
               className={this.state.clicked ? "upIcon" : ""}
               width="12"

@@ -13,7 +13,25 @@ import "./ContentHeaderSwiper.scss";
 SwiperCore.use([Autoplay, Navigation, Pagination, A11y]);
 
 class ContentHeaderSwiper extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      slideImageUrls: [],
+    };
+  }
+
+  componentDidMount() {
+    fetch("/data/store/slideImageUrls.json")
+      .then(response => response.json())
+      .then(result => {
+        this.setState({
+          slideImageUrls: result.slideImageUrls,
+        });
+      });
+  }
   render() {
+    const { slideImageUrls } = this.state;
+
     return (
       <Swiper
         className="ContentHeaderSwiper"
@@ -25,15 +43,15 @@ class ContentHeaderSwiper extends Component {
         loop={true}
         autoplay={true}
       >
-        <SwiperSlide className="ContentHeaderSwiperSlide">
-          <div className="test">test1</div>
-        </SwiperSlide>
-        <SwiperSlide className="ContentHeaderSwiperSlide">
-          <div className="test">test2</div>
-        </SwiperSlide>
-        <SwiperSlide className="ContentHeaderSwiperSlide">
-          <div className="test">test3</div>
-        </SwiperSlide>
+        {slideImageUrls.length > 0 &&
+          slideImageUrls.map((backgroundUrl, index) => (
+            <SwiperSlide key={index} className="ContentHeaderSwiperSlide">
+              <div
+                className="slideImage"
+                style={{ backgroundImage: "url(" + backgroundUrl + ")" }}
+              />
+            </SwiperSlide>
+          ))}
         ...
       </Swiper>
     );

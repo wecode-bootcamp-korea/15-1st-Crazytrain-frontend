@@ -3,6 +3,8 @@ import CategoryDetail from "./Component/CategoryDetail/CategoryDetail";
 import CategoryListItem from "./Component/CategoryListItem/CategoryListItem";
 import "./CategorySidebar.scss";
 
+// const API = "http://10.168.2.136"; // 수한님 서버 통신 연습
+
 class CategorySidebar extends Component {
   constructor(props) {
     super(props);
@@ -10,7 +12,7 @@ class CategorySidebar extends Component {
       categories: [],
       selectCategory: {},
       unSelectCategory: [],
-      categoryId: 0,
+      categoryId: 1,
     };
   }
 
@@ -20,6 +22,7 @@ class CategorySidebar extends Component {
 
   componentDidMount() {
     const { categoryId } = this.state;
+    // fetch(`${API}:8000/menu/category`) // 수한님 서버 통신 연습
     fetch("/data/store/data.json")
       .then(response => response.json())
       .then(result => {
@@ -36,6 +39,7 @@ class CategorySidebar extends Component {
 
   selectCategory = id => {
     const { categories } = this.state;
+
     this.setState({
       selectCategory: categories.filter(
         category => category.categoryId === id
@@ -54,7 +58,7 @@ class CategorySidebar extends Component {
       <div className="CategorySidebar">
         <h2 className="selectCategory">{selectCategory?.category}</h2>
         <ul className="categoryDetailContainer">
-          {selectCategory.subCategory?.map((item, index) => (
+          {selectCategory.subCategories?.map((item, index) => (
             <CategoryDetail category={item} key={index} />
           ))}
         </ul>

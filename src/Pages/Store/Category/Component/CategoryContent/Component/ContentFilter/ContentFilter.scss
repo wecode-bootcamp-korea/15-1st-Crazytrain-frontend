@@ -1,4 +1,21 @@
 .ContentFilter {
-  height: 100px;
-  background-color: green;
+  margin-bottom: 10px;
+
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #424242;
+
+    .summaryRight {
+      background-color: white;
+
+      cursor: pointer;
+      .icon {
+        margin-left: 4px;
+      }
+    }
+  }
 }
