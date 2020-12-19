@@ -2,17 +2,35 @@ import React, { Component } from "react";
 import FilterControl from "./Component/FilterControl";
 import "./ContentFilter.scss";
 
-const filterCategories = ["가격", "색상", "우드톤", "소재", "배송"];
-
 class ContentFilter extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      categories: [],
+    };
+  }
+
+  componentDidMount() {
+    fetch("/data/store/filterCategories.json")
+      .then(response => response.json())
+      .then(result => {
+        this.setState({
+          categories: result.categories,
+        });
+      });
+  }
+
   render() {
+    const { categories } = this.state;
+
     return (
       <div className="ContentFilter">
         <div className="controllList">
           <ul>
-            {filterCategories.map((category, index) => (
-              <FilterControl key={index} category={category} />
-            ))}
+            {categories.length > 0 &&
+              categories.map(category => (
+                <FilterControl key={category.name} category={category} />
+              ))}
           </ul>
         </div>
         <div className="summary">

@@ -1,5 +1,6 @@
 .FilterControl {
   display: inline-block;
+  position: relative;
 
   button {
     height: 34px;
@@ -30,5 +31,16 @@
       color: #37507d;
       border-color: #37507d;
     }
+  }
+
+  .filterDropdown {
+    position: absolute;
+    width: 460px;
+    max-height: 370px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px 22px;
+    border: 1px solid black;
+    background-color: white;
   }
 }
