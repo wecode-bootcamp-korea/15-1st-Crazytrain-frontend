@@ -8,21 +8,9 @@ class CommunityCard extends React.Component {
     isCommentSelected: false,
   };
 
-  toggleProfileSelected = () => {
+  toggleSelected = key => {
     this.setState(prev => ({
-      isProfileSelected: !prev.isProfileSelected,
-    }));
-  };
-
-  toggleMainSelected = () => {
-    this.setState(prev => ({
-      isMainSelected: !prev.isMainSelected,
-    }));
-  };
-
-  toggleCommentSelected = () => {
-    this.setState(prev => ({
-      isCommentSelected: !prev.isCommentSelected,
+      [key]: !prev[key],
     }));
   };
 
@@ -47,22 +35,22 @@ class CommunityCard extends React.Component {
       <div className="CommunityCard" key={id}>
         <header>
           <img
-            onMouseEnter={this.toggleProfileSelected}
-            onMouseLeave={this.toggleProfileSelected}
+            onMouseEnter={() => this.toggleSelected("isProfileSelected")}
+            onMouseLeave={() => this.toggleSelected("isProfileSelected")}
             className={`addCursor ${isProfileSelected}`}
             alt="profileImage"
             src={profileImage}
           />
           <span
-            onMouseEnter={this.toggleProfileSelected}
-            onMouseLeave={this.toggleProfileSelected}
+            onMouseEnter={() => this.toggleSelected("isProfileSelected")}
+            onMouseLeave={() => this.toggleSelected("isProfileSelected")}
             className={`addCursor ${isProfileSelected}`}
           >{`${userName} · `}</span>
           <span className="addCursor follow">{"팔로우"}</span>
         </header>
         <div
-          onMouseEnter={this.toggleMainSelected}
-          onMouseLeave={this.toggleMainSelected}
+          onMouseEnter={() => this.toggleSelected("isMainSelected")}
+          onMouseLeave={() => this.toggleSelected("isMainSelected")}
           className="cardImage addCursor"
         >
           <img className={isMainImageSelected} alt="contentImage" src={image} />
@@ -78,13 +66,13 @@ class CommunityCard extends React.Component {
             <span>{bookmarks}</span>
           </div>
           <div className="column addCursor">
-            <img alt="heart" src="/images/community/comment.svg" />
+            <img alt="comment" src="/images/community/comment.svg" />
             <span>{comments.length}</span>
           </div>
         </section>
         <section
-          onMouseEnter={this.toggleMainSelected}
-          onMouseLeave={this.toggleMainSelected}
+          onMouseEnter={() => this.toggleSelected("isMainSelected")}
+          onMouseLeave={() => this.toggleSelected("isMainSelected")}
           className={`content addCursor ${isMainContentSelected}`}
         >
           {content}
@@ -93,15 +81,15 @@ class CommunityCard extends React.Component {
           <img
             className={`addCursor ${isCommentSelected}`}
             alt="commentProfilePic"
-            onMouseEnter={this.toggleCommentSelected}
-            onMouseLeave={this.toggleCommentSelected}
+            onMouseEnter={() => this.toggleSelected("isCommentSelected")}
+            onMouseLeave={() => this.toggleSelected("isCommentSelected")}
             src={comments[0].profileImage}
           />
           <span>
             <strong
               className={`addCursor ${isCommentSelected}`}
-              onMouseEnter={this.toggleCommentSelected}
-              onMouseLeave={this.toggleCommentSelected}
+              onMouseEnter={() => this.toggleSelected("isCommentSelected")}
+              onMouseLeave={() => this.toggleSelected("isCommentSelected")}
             >
               {comments[0].userName}
             </strong>

@@ -84,11 +84,8 @@
 
   .content {
     margin-bottom: 15px;
-
-    &:hover {
-      opacity: 0.5;
-    }
   }
+
   .comments {
     @extend %flex-align-center;
     justify-content: flex-start;
@@ -97,20 +94,12 @@
       width: 25px;
       margin-right: 7px;
       border-radius: 50%;
-
-      &:hover {
-        opacity: 0.5;
-      }
     }
 
     span {
       strong {
         font-weight: bold;
         margin-right: 7px;
-
-        &:hover {
-          opacity: 0.5;
-        }
       }
 
       span {
