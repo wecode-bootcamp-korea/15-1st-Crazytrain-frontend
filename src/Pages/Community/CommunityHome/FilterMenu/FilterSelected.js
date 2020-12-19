@@ -22,17 +22,18 @@ class FilterSelected extends Component {
         </div>
       );
     });
-    const initializeButton = selectedFilter.length ? (
-      <span onClick={clearFilter} className="initializeButton">
+    const clearButton = selectedFilter.length ? (
+      <span onClick={clearFilter} className="clearButton">
         초기화
       </span>
     ) : (
       ""
     );
+
     return (
       <div className="FilterSelected">
         {selectedFilterList}
-        {initializeButton}
+        {clearButton}
       </div>
     );
   }
