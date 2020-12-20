@@ -1,0 +1,173 @@
+{
+  "community_detail": {
+    "post_id": 0,
+    "categories": [
+      {
+        "name": "아파트"
+      },
+      {
+        "name": "10평대"
+      },
+      {
+        "name": "북유럽"
+      }
+    ],
+    "contents": [
+      {
+        "id": 0,
+        "mainImage": "/images/community/community_detail/detailSample1.png",
+        "contents": "아이보리 빛 아담한 저희 집 주방이에요 :)",
+        "markerList": [
+          {
+            "x": 123,
+            "y": 563,
+            "details": {
+              "itemId": 123,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 1230000
+            }
+          },
+          {
+            "x": 592,
+            "y": 586,
+            "details": {
+              "itemId": 124,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 20000
+            }
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "mainImage": "/images/community/community_detail/detailSample1.png",
+        "contents": "아이보리 빛 아담한 저희 집 주방이에요 :)",
+        "markerList": [
+          {
+            "x": 50,
+            "y": 50,
+            "details": {
+              "itemId": 123,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 1230000
+            }
+          },
+          {
+            "x": 70,
+            "y": 70,
+            "details": {
+              "itemId": 124,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 20000
+            }
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "id": 0,
+        "userId": "tony",
+        "userProfileImage": "/images/community/community_detail/detail_profileSample1.png",
+        "comment": "아이유쨔앙",
+        "numOfLikes": 123,
+        "subComments": [
+          {
+            "id": 0,
+            "userId": "hehe",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          },
+          {
+            "id": 1,
+            "userId": "haha",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "userId": "tony",
+        "userProfileImage": "/images/community/community_detail/detail_profileSample1.png",
+        "comment": "아이유쨔앙",
+        "numOfLikes": 123,
+        "subComments": [
+          {
+            "id": 0,
+            "userId": "hehe",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          },
+          {
+            "id": 1,
+            "userId": "haha",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "userId": "tony",
+        "userProfileImage": "/images/community/community_detail/detail_profileSample1.png",
+        "comment": "아이유쨔앙",
+        "numOfLikes": 123,
+        "subComments": [
+          {
+            "id": 0,
+            "userId": "hehe",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          },
+          {
+            "id": 1,
+            "userId": "haha",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          }
+        ]
+      }
+    ],
+    "likeNum": 123,
+    "bookmarkNum": 123,
+    "writerName": "tonyk0901",
+    "writerProfileImage": "/images/community/community_detail/detail_profileSample1.png",
+    "otherFeeds": [
+      {
+        "id": 123,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 124,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 125,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 126,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 127,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      }
+    ]
+  }
+}
