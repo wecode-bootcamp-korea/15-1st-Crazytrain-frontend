@@ -2,7 +2,7 @@
   display: inline-block;
   position: relative;
 
-  button {
+  & button {
     height: 34px;
     padding: 8px 10px;
     font-size: 14px;
@@ -39,8 +39,41 @@
     max-height: 370px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 16px 22px;
-    border: 1px solid black;
     background-color: white;
+    color: rgb(66, 66, 66);
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+    margin-top: 6px;
+    padding: 16px 22px;
+
+    &.pricePanelContainer {
+      padding: 86px 22px 16px 22px;
+
+      .pricePanel {
+        position: absolute;
+        height: 50px;
+        width: 460px;
+        top: 16px;
+        left: 22px;
+
+        .price {
+          width: 100px;
+          height: 34px;
+          outline: none;
+          font-weight: 700;
+          border: 1px solid rgb(218, 220, 224);
+          border-radius: 6px;
+        }
+
+        .submitButton {
+          width: 50px;
+          height: 34px;
+          color: white;
+          background-color: #666f75;
+          margin-left: 10px;
+        }
+      }
+    }
   }
 }

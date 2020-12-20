@@ -2,7 +2,7 @@
   "categories": [
     {
       "name": "색상",
-      "subCategories": [
+      "filterListItems": [
         "화이트",
         "그레이",
         "블랙",
@@ -24,11 +24,11 @@
     },
     {
       "name": "우드톤",
-      "subCategories": ["밝은 톤", "중간 톤", "어두운 톤"]
+      "filterListItems": ["밝은 톤", "중간 톤", "어두운 톤"]
     },
     {
       "name": "소재",
-      "subCategories": [
+      "filterListItems": [
         "원목",
         "가공목(mdf 외)",
         "천연대리석",
@@ -50,7 +50,7 @@
     },
     {
       "name": "가격",
-      "subCategories": [
+      "filterListItems": [
         "전체",
         "50,000원 이하",
         "50,000원 ~ 100,000원",
@@ -68,7 +68,7 @@
     },
     {
       "name": "배송",
-      "subCategories": ["무료배송", "희망일배송", "업체직접배송"]
+      "filterListItems": ["무료배송", "희망일배송", "업체직접배송"]
     }
   ]
 }

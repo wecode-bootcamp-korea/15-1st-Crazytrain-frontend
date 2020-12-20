@@ -1,6 +1,50 @@
 .ContentFilter {
   margin-bottom: 10px;
 
+  .tagList {
+    display: flex;
+    width: 900px;
+    min-height: 70px;
+    margin-top: 20px;
+    line-height: 40px;
+
+    .tagListContainer {
+      width: 800px;
+      background-color: #f7f8fa;
+
+      .tagListBox {
+        margin: 15px 0;
+        padding: 0px 10px;
+      }
+    }
+
+    .tagListClear {
+      background-color: #f7f8fa;
+      width: 100px;
+
+      .textBox {
+        display: flex;
+        width: 54px;
+        margin: 0 auto;
+
+        .icon {
+          width: 14px;
+          height: 14px;
+        }
+
+        .buttonName {
+          display: block;
+          margin-left: 5px;
+          color: #757575;
+          font-size: 14px;
+          font-weight: 700;
+          white-space: nowrap;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
   .summary {
     display: flex;
     justify-content: space-between;
