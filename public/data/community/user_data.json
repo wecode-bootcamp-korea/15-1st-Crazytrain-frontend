@@ -1,0 +1,9 @@
+{
+  "user": {
+    "userName": "sunghoon__kim",
+    "userProfileImage": "url",
+    "likedFeeds": [123, 124, 125],
+    "bookmarkedFeeds": [123, 124, 125],
+    "following": [123, 124, 125]
+  }
+}

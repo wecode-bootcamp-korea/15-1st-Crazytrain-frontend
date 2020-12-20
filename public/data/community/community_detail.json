@@ -1,0 +1,76 @@
+{
+  "community_detail": {
+    "post_id": 0,
+    "categories": [
+      {
+        "name": "아파트"
+      },
+      {
+        "name": "아파트"
+      }
+    ],
+    "feeds": [
+      {
+        "id": 0,
+        "mainImage": "url",
+        "contents": "유저가 작성한 글이 여기에 들어갈 것",
+        "markerList": [
+          {
+            "x": 123,
+            "y": 123,
+            "details": {
+              "itemId": 123,
+              "image": "url",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 1230000
+            }
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "id": 0,
+        "userId": "tony",
+        "userProfile": "url",
+        "comment": "아이유쨔앙",
+        "numOfLikes": 123,
+        "subComments": [
+          {
+            "id": 0,
+            "userId": "hehe",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          },
+          {
+            "id": 1,
+            "userId": "haha",
+            "userProfile": "url",
+            "comment": "아이유쨔앙",
+            "numOfLikes": 123
+          }
+        ]
+      }
+    ],
+    "likeNum": 123,
+    "bookmarkNum": 123,
+    "writerName": "perola",
+    "writerProfileImage": "url",
+    "otherFeeds": [
+      {
+        "id": 123,
+        "feedImage": "url"
+      },
+      {
+        "id": 124,
+        "feedImage": "url"
+      },
+      {
+        "id": 125,
+        "feedImage": "url"
+      }
+    ]
+  }
+}

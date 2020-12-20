@@ -1,0 +1,23 @@
+@import "../../../Styles/common.scss";
+
+.CommunityDetail {
+  background-color: lightgreen;
+  width: 1200px;
+  margin: 0px auto;
+
+  .mainMenu {
+    @extend %flex-center;
+    justify-content: space-between;
+
+    main {
+      background-color: lightblue;
+      width: 850px;
+    }
+
+    aside {
+      background-color: lightcoral;
+      width: 350px;
+      height: 830px;
+    }
+  }
+}

@@ -16,7 +16,7 @@ class CommunityHome extends Component {
   }
 
   fetchMoreData = () => {
-    fetch(`${API}/data/community/data.json`)
+    fetch(`${API}/data/community/community_card.json`)
       .then(response => response.json())
       .then(result => {
         const {
