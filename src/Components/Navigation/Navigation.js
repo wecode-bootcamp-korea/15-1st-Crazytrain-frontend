@@ -31,12 +31,7 @@ class Navigation extends Component {
     this.setState({ showButtonBox: !this.state.showButtonBox });
   };
 
-  hiddenWriteBox = () => {
-    this.setState({ showButtonBox: !this.state.showButtonBox });
-  };
-
   onClickOutside = () => {
-    console.log("sdafda");
     this.setState({ showButtonBox: false });
   };
 

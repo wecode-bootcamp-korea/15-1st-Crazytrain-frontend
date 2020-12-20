@@ -40,8 +40,10 @@ class CommunityPage extends Component {
     return (
       <>
         <div className="CommunitySubNav">
-          {communityList.map(element => (
-            <div className="communitySubNavContent">{element.name}</div>
+          {communityList.map((element, index) => (
+            <div key={index} className="communitySubNavContent">
+              {element.name}
+            </div>
           ))}
         </div>
       </>

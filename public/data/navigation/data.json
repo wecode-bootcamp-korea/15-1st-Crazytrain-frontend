@@ -1,1 +1,28 @@
-{}
+const MOCK =[
+  {
+    id:"kyj2471@naver.com",
+    pw:"aaaaaaaa"
+    username:"김영재",
+  },
+  {
+    id:"qwer@naver.com",
+    pw:"aaaaaaaa"
+    username:"김성훈",
+  },
+  {
+    id:"asdf@naver.com"
+    pw:"aaaaaaaa",
+    username:"하태현",
+  },
+  {
+    id:"qeqe@naver.com",
+    pw:"aaaaaaaa",
+    username:"임태진",
+  },
+  {
+    id:"zxzxzx@naver.com"
+    pw:"aaaaaaaa",
+    username:"김영광",
+  },
+];
+export default MOCK;

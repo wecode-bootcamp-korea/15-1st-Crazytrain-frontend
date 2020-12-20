@@ -53,12 +53,13 @@
       border: none;
       color: #ffffff;
       border-radius: 4px;
-    }
-    .loinBtn:hover {
-      background-color: #36b9e0;
-    }
-    button:focus {
-      outline: none;
+
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        background-color: #36b9e0;
+      }
     }
   }
   .loginInfo {
@@ -93,6 +94,10 @@
 
       img {
         border-radius: 50%;
+        cursor: pointer;
+      }
+      img:hover {
+        opacity: 0.5;
       }
     }
   }
@@ -109,5 +114,53 @@
     border-top: 1px solid #dbdbdb;
     height: 100px;
     padding-top: 35px;
+    cursor: pointer;
+  }
+}
+.guestLog {
+  position: relative;
+  @extend %flex-center;
+  margin: -5px -10px;
+  overflow: hidden;
+  max-height: 250px;
+  transition: all 0.5s;
+  .guestContainer {
+    width: 320px;
+    height: 210px;
+  }
+  input {
+    margin-top: 10px;
+    width: 320px;
+    height: 50px;
+    color: #424242;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0 15px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+  }
+  input:focus {
+    outline: none;
+    border-color: #c0ecfa;
+    border-width: 4px;
+  }
+  button {
+    width: 320px;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 25px;
+    line-height: 1.41;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #35c5f0;
+    border: none;
+    border-radius: 4px;
+  }
+  button:focus {
+    outline: none;
+  }
+  button:hover {
+    background-color: #36b9e0;
   }
 }

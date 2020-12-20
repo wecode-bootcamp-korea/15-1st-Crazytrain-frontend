@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 
 const writingBoxContent = [
   {
@@ -44,12 +45,19 @@ const writingBoxContent = [
 ];
 
 class WritingList extends Component {
+  goToUploadImg = index => {
+    this.props.history.push(`/UploadImg/${index}`);
+    console.log(this.props.history);
+  };
   render() {
     return (
       <div className="writingBox">
         <div className="boxElement">
-          {writingBoxContent.map(element => (
-            <div className="writingListMap">
+          {writingBoxContent.map((element, index) => (
+            <div
+              className="writingListMap"
+              onClick={() => this.goToUploadImg(index)}
+            >
               <div className="writingListImg">
                 <img className="imgWriteList" src={element.img} alt="#" />
               </div>
@@ -65,4 +73,4 @@ class WritingList extends Component {
   }
 }
 
-export default WritingList;
+export default withRouter(WritingList);
