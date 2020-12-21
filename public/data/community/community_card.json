@@ -1,0 +1,1444 @@
+{
+  "communityCards": [
+    {
+      "id": 0,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 1,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 2,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 3,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 4,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 5,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 6,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 7,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 8,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 9,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 10,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 11,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 12,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 13,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 14,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 15,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 16,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 17,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 18,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 19,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 20,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 21,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 22,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 23,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 24,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 25,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 26,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 27,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 28,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 29,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 30,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 31,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 32,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 33,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 34,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 35,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 36,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 37,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 38,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 39,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 40,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 41,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 42,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 43,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 44,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 45,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 46,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 47,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 48,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 49,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 50,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 51,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 52,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 53,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 54,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 55,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 56,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 57,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 58,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 59,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 60,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 61,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 62,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 63,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 64,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 65,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 66,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 67,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 68,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 69,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 70,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 71,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 72,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 73,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 74,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 75,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 76,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 78,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 79,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    },
+    {
+      "id": 80,
+      "userName": "지혜(눈똥)",
+      "profileImage": "/images/community/sampleImage1.jpg",
+      "image": "/images/community/sampleImage2.jpg",
+      "content": "따스한 느낌의 안방입니다 :) 이불이 볼록한건 고양이가 자고 있어서에요 ㅎㅎ",
+      "comments": [
+        {
+          "id": 0,
+          "userName": "amyyyy17",
+          "profileImage": "/images/community/sampleImage3.jpg",
+          "content": "넘 예뻐요~~~ 제 스타일!!!"
+        }
+      ],
+      "likes": 130,
+      "bookmarks": 181,
+      "views": "13,759"
+    }
+  ]
+}
