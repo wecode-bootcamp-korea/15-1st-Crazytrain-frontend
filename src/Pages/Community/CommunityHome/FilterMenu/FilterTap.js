@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { FilterTapData } from "./FilterTapData";
 import FilterTapCard from "./FilterTapCard";
-import "./FilterTap.scss";
 import FilterSelected from "./FilterSelected";
+import "./FilterTap.scss";
 
 class FilterTap extends Component {
   state = {
@@ -40,25 +40,24 @@ class FilterTap extends Component {
   };
 
   render() {
-    const selectedList = this.state.selectedFilter.map(
-      element => element.tapId
-    );
-
-    const filterTapCardList = FilterTapData.map((element, index) => {
-      const isSelected = selectedList.includes(element.id);
-      return (
-        <FilterTapCard
-          key={index}
-          isSelected={isSelected}
-          filterTapCard={element}
-          addFilter={this.addFilter}
-          selectedFilter={this.state.selectedFilter}
-        />
-      );
-    });
     return (
       <>
-        <section className="FilterTap">{filterTapCardList}</section>
+        <section className="FilterTap">
+          {FilterTapData.map((element, index) => {
+            const isSelected = this.state.selectedFilter
+              .map(element => element.tapId)
+              .includes(element.id);
+            return (
+              <FilterTapCard
+                key={index}
+                isSelected={isSelected}
+                filterTapCard={element}
+                addFilter={this.addFilter}
+                selectedFilter={this.state.selectedFilter}
+              />
+            );
+          })}
+        </section>
         <FilterSelected
           selectedFilter={this.state.selectedFilter}
           clearFilter={this.clearFilter}
