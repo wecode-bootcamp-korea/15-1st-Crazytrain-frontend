@@ -1,0 +1,6 @@
+@import "../../../../Styles/common.scss";
+
+.FilterTap {
+  @extend %flex-align-center;
+  margin-top: 20px;
+}
