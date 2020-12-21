@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const storeList = [
+const store_List = [
   {
     id: 1,
     name: "스토어홈",
@@ -26,13 +26,11 @@ const storeList = [
 class StorePage extends Component {
   render() {
     return (
-      <>
-        <div className="storeSubNav" onMouseLeave={this.props.toggleSubNav}>
-          {storeList.map(element => (
-            <div className="storeSubNavContent">{element.name}</div>
-          ))}
-        </div>
-      </>
+      <div className="storeSubNav" onMouseLeave={this.props.toggleSubNav}>
+        {store_List.map(element => (
+          <div className="storeSubNavContent">{element.name}</div>
+        ))}
+      </div>
     );
   }
 }

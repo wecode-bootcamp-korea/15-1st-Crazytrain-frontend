@@ -43,7 +43,6 @@ class Signup extends React.Component {
   };
   checkInputValue = e => {
     const { name, value } = e.target;
-    // console.log(name, value);
     this.setState({
       [name]: value,
     });
@@ -67,26 +66,33 @@ class Signup extends React.Component {
     });
   };
 
-  handleCheck1 = () => {
+  handleCheck = id => {
     this.setState({
-      check1: !this.state.check1,
+      [`check${id}`]: !this.state[`check${id}`],
     });
   };
-  handleCheck2 = () => {
-    this.setState({
-      check2: !this.state.check2,
-    });
-  };
-  handleCheck3 = () => {
-    this.setState({
-      check3: !this.state.check3,
-    });
-  };
-  handleCheck4 = () => {
-    this.setState({
-      check4: !this.state.check4,
-    });
-  };
+
+  //안녕...
+  // handleCheck1 = () => {
+  //   this.setState({
+  //     check1: !this.state.check1,
+  //   });
+  // };
+  // handleCheck2 = () => {
+  //   this.setState({
+  //     check2: !this.state.check2,
+  //   });
+  // };
+  // handleCheck3 = () => {
+  //   this.setState({
+  //     check3: !this.state.check3,
+  //   });
+  // };
+  // handleCheck4 = () => {
+  //   this.setState({
+  //     check4: !this.state.check4,
+  //   });
+  // };
 
   componentDidUpdate(prevProps, prevState) {
     const { check1, check2, check3, check4 } = this.state;
@@ -224,7 +230,7 @@ class Signup extends React.Component {
                       className="checkBox"
                       type="checkbox"
                       checked={check1}
-                      onChange={this.handleCheck1}
+                      onChange={() => this.handleCheck(1)}
                     />
                     <span className="moreFourTeen">만 14세 이상입니다.</span>
                     <span className="essentional">(필수)</span>
@@ -234,7 +240,7 @@ class Signup extends React.Component {
                       className="checkBox"
                       type="checkbox"
                       checked={check2}
-                      onChange={this.handleCheck2}
+                      onChange={() => this.handleCheck(2)}
                     />
                     <span className="explaingRuleUnderline">이용약관</span>
                     <span className="essentional">(필수)</span>
@@ -244,7 +250,7 @@ class Signup extends React.Component {
                       className="checkBox"
                       type="checkbox"
                       checked={check3}
-                      onChange={this.handleCheck3}
+                      onChange={() => this.handleCheck(3)}
                     />
                     <span className="infoUser">개인정보처리방침</span>
                     <span className="essentional">(필수)</span>
@@ -254,7 +260,7 @@ class Signup extends React.Component {
                       className="checkBox"
                       type="checkbox"
                       checked={check4}
-                      onChange={this.handleCheck4}
+                      onChange={() => this.handleCheck(4)}
                     />
                     <span className="messageEvent">
                       이벤트, 프로모션 알림 메일 및 SMS 수신.

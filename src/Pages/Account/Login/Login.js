@@ -2,6 +2,7 @@ import React from "react";
 import "./login.scss";
 import { Link } from "react-router-dom";
 import GuestLogin from "./GuestLogin";
+import { LOGIN_API } from "../../../config";
 
 class Login extends React.Component {
   constructor() {
@@ -15,7 +16,7 @@ class Login extends React.Component {
   }
 
   signIn = () => {
-    fetch("http://10.168.2.99:8000/user/signin", {
+    fetch(LOGIN_API, {
       method: "POST",
       body: JSON.stringify({
         email: this.state.id,
@@ -57,7 +58,6 @@ class Login extends React.Component {
 
   render() {
     const { id, pw } = this.state;
-    // console.log(this.state.showGuestBox);
     return (
       <div className="mainLogin">
         <div className="loginContainer">

@@ -37,7 +37,7 @@ class Navigation extends Component {
 
   render() {
     const { goToLogin, goToSignUp } = this;
-
+    const { showWriteBox } = this;
     return (
       <div>
         <div className="superContainer">
@@ -87,7 +87,7 @@ class Navigation extends Component {
                   <OutsideClickHandler
                     onOutsideClick={() => this.onClickOutside()}
                   >
-                    <button className="navButton" onClick={this.showWriteBox}>
+                    <button className="navButton" onClick={showWriteBox}>
                       글쓰기
                     </button>
                     {this.state.showButtonBox ? <WritingList /> : ""}

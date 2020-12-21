@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const communityList = [
+const community_List = [
   {
     id: 1,
     name: "홈",
@@ -40,7 +40,7 @@ class CommunityPage extends Component {
     return (
       <>
         <div className="CommunitySubNav">
-          {communityList.map((element, index) => (
+          {community_List.map((element, index) => (
             <div key={index} className="communitySubNavContent">
               {element.name}
             </div>
