@@ -44,12 +44,12 @@
       },
       {
         "id": 1,
-        "mainImage": "/images/community/community_detail/detailSample1.png",
+        "mainImage": "/images/community/community_detail/detailSample11.png",
         "contents": "아이보리 빛 아담한 저희 집 주방이에요 :)",
         "markerList": [
           {
-            "x": 50,
-            "y": 50,
+            "x": 150,
+            "y": 138,
             "details": {
               "itemId": 123,
               "image": "/images/community/community_detail/detailSample2.png",
@@ -59,14 +59,25 @@
             }
           },
           {
-            "x": 70,
-            "y": 70,
+            "x": 476,
+            "y": 545,
             "details": {
               "itemId": 124,
               "image": "/images/community/community_detail/detailSample2.png",
               "brandName": "브랜드네임",
               "name": "아이템 이름",
               "price": 20000
+            }
+          },
+          {
+            "x": 495,
+            "y": 925,
+            "details": {
+              "itemId": 125,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 102000
             }
           }
         ]
@@ -75,76 +86,19 @@
     "comments": [
       {
         "id": 0,
-        "userId": "tony",
+        "userId": "tonyk0901",
         "userProfileImage": "/images/community/community_detail/detail_profileSample1.png",
-        "comment": "아이유쨔앙",
-        "numOfLikes": 123,
-        "subComments": [
-          {
-            "id": 0,
-            "userId": "hehe",
-            "userProfile": "url",
-            "comment": "아이유쨔앙",
-            "numOfLikes": 123
-          },
-          {
-            "id": 1,
-            "userId": "haha",
-            "userProfile": "url",
-            "comment": "아이유쨔앙",
-            "numOfLikes": 123
-          }
-        ]
+        "comment": "지응쨔앙~❤️ "
       },
       {
         "id": 1,
-        "userId": "tony",
-        "userProfileImage": "/images/community/community_detail/detail_profileSample1.png",
-        "comment": "아이유쨔앙",
-        "numOfLikes": 123,
-        "subComments": [
-          {
-            "id": 0,
-            "userId": "hehe",
-            "userProfile": "url",
-            "comment": "아이유쨔앙",
-            "numOfLikes": 123
-          },
-          {
-            "id": 1,
-            "userId": "haha",
-            "userProfile": "url",
-            "comment": "아이유쨔앙",
-            "numOfLikes": 123
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "userId": "tony",
-        "userProfileImage": "/images/community/community_detail/detail_profileSample1.png",
-        "comment": "아이유쨔앙",
-        "numOfLikes": 123,
-        "subComments": [
-          {
-            "id": 0,
-            "userId": "hehe",
-            "userProfile": "url",
-            "comment": "아이유쨔앙",
-            "numOfLikes": 123
-          },
-          {
-            "id": 1,
-            "userId": "haha",
-            "userProfile": "url",
-            "comment": "아이유쨔앙",
-            "numOfLikes": 123
-          }
-        ]
+        "userId": "youngjae_kim123",
+        "userProfileImage": "/images/community/community_detail/detail_profileSample2.png",
+        "comment": "성훈님 정말 엉망징창이네요"
       }
     ],
-    "likeNum": 123,
-    "bookmarkNum": 123,
+    "likeNum": 1203,
+    "bookmarkNum": 1242,
     "writerName": "tonyk0901",
     "writerProfileImage": "/images/community/community_detail/detail_profileSample1.png",
     "otherFeeds": [

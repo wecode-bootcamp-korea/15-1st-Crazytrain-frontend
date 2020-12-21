@@ -52,5 +52,5 @@ class CommunityHome extends Component {
     );
   }
 }
-
+const NUMBER_OF_ITEMS_TO_FETCH = 20;
 export default CommunityHome;

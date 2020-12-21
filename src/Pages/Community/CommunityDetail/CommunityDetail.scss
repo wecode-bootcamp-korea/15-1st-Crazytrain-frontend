@@ -1,35 +1,19 @@
 @import "../../../Styles/common.scss";
 
 .CommunityDetail {
-  @extend %flex-center;
-  justify-content: space-between;
-  background-color: lightcoral;
   width: 1200px;
   margin: 0 auto;
 
-  main {
-    width: 850px;
-
-    header {
-      @extend %flex-align-center;
-      height: 90px;
-
-      span {
-        padding-right: 5px;
-        padding-left: 5px;
-        border-right: 1px solid #757575;
-        color: #757575;
-        font-size: 15px;
-
-        &.noBorder {
-          border-right: none;
-        }
-      }
-    }
+  .CommunityDetailWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #ededed;
   }
 
-  .asideMenu {
-    background-color: lightblue;
-    width: 350px;
+  .CommunityFooter {
+    height: 500px;
+    margin-top: 100px;
+    background-color: green;
   }
 }

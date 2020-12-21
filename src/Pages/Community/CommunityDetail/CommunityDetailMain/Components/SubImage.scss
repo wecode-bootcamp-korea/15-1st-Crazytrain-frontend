@@ -1,0 +1,20 @@
+@import "../../../../../Styles/common.scss";
+
+li.SubImage {
+  margin: 30px 15px 50px 0;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &:hover,
+    &.makeHighlight {
+      border: 2px solid #6ed6f3;
+    }
+  }
+}

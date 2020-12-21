@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import CommunityDetailBody from "./CommunityDetailBody/CommunityDetailBody";
+import CommunityDetailMain from "./CommunityDetailMain/CommunityDetailMain";
+import CommunityDetailAside from "./CommunityDetailAside/CommunityDetailAside";
 import { API } from "../../../config";
 import "./CommunityDetail.scss";
 
@@ -17,29 +18,52 @@ class CommunityDetail extends Component {
         });
       });
   }
+
+  addComment = value => {
+    const newPost = { ...this.state.posts };
+    const newComment = {
+      id: newPost.comments[newPost.comments.length - 1].id + 1,
+      userId: "tonyk0901",
+      userProfileImage:
+        "/images/community/community_detail/detail_profileSample1.png",
+      comment: value,
+    };
+    newPost.comments = newPost.comments.concat(newComment);
+    this.setState({
+      posts: newPost,
+    });
+  };
   render() {
-    const { categories, contents } = this.state.posts;
-    console.log(categories, contents);
+    const {
+      categories,
+      contents,
+      comments,
+      likeNum,
+      bookmarkNum,
+      writerName,
+      writerProfileImage,
+      otherFeeds,
+    } = this.state.posts;
 
     return (
       <div className="CommunityDetail">
-        <main>
-          <header>
-            {categories?.map((category, index) => {
-              return (
-                <span
-                  className={index === categories.length - 1 ? "noBorder" : ""}
-                >
-                  {category.name}
-                </span>
-              );
-            })}
-          </header>
-          {contents?.map(content => {
-            return <CommunityDetailBody content={content} />;
-          })}
-        </main>
-        <aside className="asideMenu">옆 메뉴가 온다요</aside>
+        <div className="CommunityDetailWrapper">
+          <CommunityDetailMain
+            addComment={this.addComment}
+            categories={categories}
+            contents={contents}
+            comments={comments}
+          />
+          <CommunityDetailAside
+            likeNum={likeNum}
+            bookmarkNum={bookmarkNum}
+            writerName={writerName}
+            writerProfileImage={writerProfileImage}
+            otherFeeds={otherFeeds}
+          />
+        </div>
+
+        <footer className="CommunityFooter">Footer here!</footer>
       </div>
     );
   }
