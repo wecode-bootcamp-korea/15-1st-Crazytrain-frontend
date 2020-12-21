@@ -51,22 +51,13 @@ class FilterList extends Component {
 
     return (
       <div className="FilterList">
-        {type !== "radio" ? (
-          <input
-            name={type}
-            type={type}
-            value={filterListItem}
-            checked={this.state.checked}
-            onChange={this.changeCheckbox}
-          />
-        ) : (
-          <input
-            name={type}
-            type={type}
-            value={filterListItem}
-            onChange={this.changeRadio}
-          />
-        )}
+        <input
+          name={type}
+          type={type}
+          value={filterListItem}
+          {...(type !== "radio" && { checked: this.state.checked })}
+          onChange={type === "radio" ? this.changeRadio : this.changeCheckbox}
+        />
         <label htmlFor={filterListItem} className="filterListItem">
           {filterListItem}
         </label>

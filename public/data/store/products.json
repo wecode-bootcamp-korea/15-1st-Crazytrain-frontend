@@ -1,7 +1,7 @@
 {
   "salesArticles": [
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "크라운퍼니처",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -13,7 +13,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "보니에가구",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -25,7 +25,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "하태현님",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -37,7 +37,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "바바밥바바",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -49,7 +49,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -61,7 +61,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -73,7 +73,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "크라운퍼니처",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -85,7 +85,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "보니에가구",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -97,7 +97,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "하태현님",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -109,7 +109,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "바바밥바바",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -121,7 +121,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -133,7 +133,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -145,7 +145,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "크라운퍼니처",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -157,7 +157,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "보니에가구",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -169,7 +169,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "하태현님",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -181,7 +181,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "바바밥바바",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -193,7 +193,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -205,7 +205,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -217,7 +217,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "크라운퍼니처",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -229,7 +229,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "보니에가구",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -241,7 +241,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "하태현님",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -253,7 +253,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "바바밥바바",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -265,7 +265,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -277,7 +277,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -289,7 +289,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "크라운퍼니처",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -301,7 +301,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "보니에가구",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -313,7 +313,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "하태현님",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -325,7 +325,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "바바밥바바",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -337,7 +337,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -349,7 +349,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -361,7 +361,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "크라운퍼니처",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -373,7 +373,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "보니에가구",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -385,7 +385,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "하태현님",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -397,7 +397,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/table.jpg",
+      "src": "../images/store/table.jpg",
       "alt": "table",
       "brandName": "바바밥바바",
       "articleName": "[주말특가][할인쿠폰] 메이비 아쿠아텍스 3인용소파 (스툴포함) 3colors",
@@ -409,7 +409,7 @@
       "isPackage": false
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",
@@ -421,7 +421,7 @@
       "isPackage": true
     },
     {
-      "src": "./images/store/gaming_chair.jpg",
+      "src": "../images/store/gaming_chair.jpg",
       "alt": "gaming_chair",
       "brandName": "마마맘마맘",
       "articleName": "[주말특가][쿠폰할인] 신상출시 헤링본 아일랜드 식탁 테이블 3size(렌지대/수납형)",

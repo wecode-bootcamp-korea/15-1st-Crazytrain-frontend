@@ -8,7 +8,7 @@ class SalesArticle extends Component {
 
     return (
       <article className="SalesArticle">
-        <Link to="#">
+        <Link to="/store/product">
           <div className="itemOverlay">
             <div className="imageWrap">
               <img className={type} src={article.src} alt={article.alt} />
