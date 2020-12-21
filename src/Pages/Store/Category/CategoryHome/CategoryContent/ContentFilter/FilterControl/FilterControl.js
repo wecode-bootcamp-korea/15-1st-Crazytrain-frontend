@@ -70,36 +70,39 @@ class FilterControl extends Component {
               name === "가격" ? "pricePanelContainer" : ""
             }`}
           >
-            <div className={name === "가격" ? "pricePanel" : "hideBox"}>
-              <form onSubmit={submitForm}>
-                <span>
-                  <input
-                    className="price"
-                    name="formCheck"
-                    type="text"
-                    width="5"
-                    placeholder="0"
-                    value={minPrice}
-                    readOnly
-                  />
-                </span>
-                <span> 원</span>
-                <span> ~ </span>
-                <span>
-                  <input
-                    className="price"
-                    name="formCheck"
-                    type="text"
-                    width="5"
-                    placeholder="83,400,000"
-                    value={maxPrice}
-                    readOnly
-                  />
-                </span>
-                <span> 원</span>
-                <button className="submitButton">적용</button>
-              </form>
-            </div>
+            {name === "가격" && (
+              <div className="pricePanel">
+                <form onSubmit={submitForm}>
+                  <span>
+                    <input
+                      className="price"
+                      name="formCheck"
+                      type="text"
+                      width="5"
+                      placeholder="0"
+                      value={minPrice}
+                      readOnly
+                    />
+                  </span>
+                  <span> 원</span>
+                  <span> ~ </span>
+                  <span>
+                    <input
+                      className="price"
+                      name="formCheck"
+                      type="text"
+                      width="5"
+                      placeholder="83,400,000"
+                      value={maxPrice}
+                      readOnly
+                    />
+                  </span>
+                  <span> 원</span>
+                  <button className="submitButton">적용</button>
+                </form>
+              </div>
+            )}
+
             {category.filterListItems.map((filterListItem, index) => (
               <FilterList
                 key={index}

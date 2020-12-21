@@ -8,9 +8,11 @@ class SalesArticle extends Component {
 
     return (
       <article className="SalesArticle">
-        <Link to="/">
+        <Link to="#">
           <div className="itemOverlay">
-            <img className={type} src={article.src} alt={article.alt} />
+            <div className="imageWrap">
+              <img className={type} src={article.src} alt={article.alt} />
+            </div>
             <div className={`itemContent ${type}`}>
               <div className="itemBrandName">{article.brandName}</div>
               <div className="itemTitle">{article.articleName}</div>
@@ -41,7 +43,9 @@ class SalesArticle extends Component {
                 <span className="statReview">
                   리뷰 {article.statReviewCount}
                 </span>
-                <div className="itemBadge">{article.itemBadge}</div>
+                {article.itemBadge && (
+                  <div className="itemBadge">{article.itemBadge}</div>
+                )}
               </div>
             </div>
           </div>

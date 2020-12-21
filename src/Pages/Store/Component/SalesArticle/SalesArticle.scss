@@ -11,26 +11,35 @@
       }
     }
 
-    img.mdpick {
-      width: 160px;
-      height: 160px;
-    }
+    .imageWrap {
+      overflow: hidden;
 
-    img {
-      display: block;
-      width: 270px;
-      height: 270px;
-      border-radius: 7px;
-      transition: transform 0.3s ease;
+      img.mdpick {
+        width: 160px;
+        height: 160px;
+      }
+      img.mainList {
+        width: 270px;
+        height: 270px;
+      }
+
+      img {
+        display: block;
+        border-radius: 7px;
+        transition: transform 0.3s ease;
+      }
     }
 
     .itemContent.mdpick {
       width: 160px;
     }
 
+    .itemContent.mainList {
+      width: 270px;
+    }
+
     .itemContent {
       height: 130px;
-      width: 270px;
 
       .itemBrandName {
         color: #757575;

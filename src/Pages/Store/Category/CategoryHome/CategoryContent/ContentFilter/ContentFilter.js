@@ -90,15 +90,6 @@ class ContentFilter extends Component {
             </div>
           </button>
         </div>
-        <div className="summary">
-          <span className="summaryLeft">전체 74,709개</span>
-          <button className="summaryRight">
-            많은리뷰순
-            <svg className="icon" width="8" height="8" viewBox="0 0 8 8">
-              <path fill="#BDBDBD" d="M0 2l4 4 4-4z"></path>
-            </svg>
-          </button>
-        </div>
       </div>
     );
   }
