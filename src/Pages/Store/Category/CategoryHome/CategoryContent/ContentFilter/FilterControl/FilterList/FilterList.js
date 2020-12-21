@@ -4,7 +4,6 @@ import "./FilterList.scss";
 class FilterList extends Component {
   state = {
     checked: false,
-    selectOption: this.props.defaultChecked,
   };
 
   changeCheckbox = e => {

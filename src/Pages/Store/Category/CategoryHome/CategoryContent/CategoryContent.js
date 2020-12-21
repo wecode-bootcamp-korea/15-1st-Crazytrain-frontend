@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ContentHeader from "./Component/ContentHeader/ContentHeader";
-import ContentMdpick from "./Component/ContentMdpick/ContentMdpick";
-import ContentFilter from "./Component/ContentFilter/ContentFilter";
-import ContentRow from "./Component/ContentRow/ContentRow";
+import ContentHeader from "./ContentHeader/ContentHeader";
+import ContentMdpick from "./ContentMdpick/ContentMdpick";
+import ContentFilter from "./ContentFilter/ContentFilter";
+import ContentRow from "./ContentRow/ContentRow";
 import "./CategoryContent.scss";
 
 class CategoryContent extends Component {

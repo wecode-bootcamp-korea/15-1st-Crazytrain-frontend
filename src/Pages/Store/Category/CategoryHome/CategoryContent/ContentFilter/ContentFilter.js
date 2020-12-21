@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import FilterControl from "./Component/FilterControl/FilterControl";
-import FilterTag from "./Component/FilterTag/FilterTag";
+import FilterControl from "./FilterControl/FilterControl";
+import FilterTag from "./FilterControl/FilterList/FilterTag/FilterTag";
 import "./ContentFilter.scss";
 
 class ContentFilter extends Component {

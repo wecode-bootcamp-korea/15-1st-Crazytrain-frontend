@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ContentHeaderSwiper from "./Component/ContentHeaderSwiper/ContentHeaderSwiper";
+import ContentHeaderSwiper from "./ContentHeaderSwiper/ContentHeaderSwiper";
 import "./ContentHeader.scss";
 
 class ContentHeader extends Component {

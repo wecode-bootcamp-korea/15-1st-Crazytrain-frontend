@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
-import FilterList from "../Component/FilterList";
+import FilterList from "./FilterList/FilterList";
 import "./FilterControl.scss";
 
 class FilterControl extends Component {

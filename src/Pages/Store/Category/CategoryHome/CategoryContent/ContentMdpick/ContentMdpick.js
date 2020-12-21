@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SalesArticle from "../Component/SalesArticle/SalesArticle";
+import SalesArticle from "../../../../Component/SalesArticle/SalesArticle";
 import "./ContentMdpick.scss";
 
 class ContentMdpick extends Component {

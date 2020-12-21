@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CategoryDetail from "./Component/CategoryDetail/CategoryDetail";
-import CategoryListItem from "./Component/CategoryListItem/CategoryListItem";
+import CategoryDetail from "./CategoryDetail/CategoryDetail";
+import CategoryListItem from "./CategoryListItem/CategoryListItem";
 import "./CategorySidebar.scss";
 
 // const API = "http://10.168.2.136"; // 수한님 서버 통신 연습
