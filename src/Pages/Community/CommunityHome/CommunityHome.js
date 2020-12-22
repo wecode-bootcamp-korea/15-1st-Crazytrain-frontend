@@ -4,11 +4,12 @@ import CommunityCardList from "./CommunityCardList/CommunityCardList";
 import { API } from "../../../config";
 import "./CommunityHome.scss";
 
+const NUMBER_OF_ITEMS_TO_FETCH = 8;
+
 class CommunityHome extends Component {
   state = {
     communityCards: [],
     currentIndex: 0,
-    NUMBER_OF_ITEMS_TO_FETCH: 12,
   };
 
   componentDidMount() {
@@ -19,11 +20,7 @@ class CommunityHome extends Component {
     fetch(`${API}/data/community/community_card.json`)
       .then(response => response.json())
       .then(result => {
-        const {
-          communityCards,
-          currentIndex,
-          NUMBER_OF_ITEMS_TO_FETCH,
-        } = this.state;
+        const { communityCards, currentIndex } = this.state;
         this.setState({
           communityCards: communityCards.concat(
             result.communityCards.slice(
@@ -52,5 +49,4 @@ class CommunityHome extends Component {
     );
   }
 }
-const NUMBER_OF_ITEMS_TO_FETCH = 20;
 export default CommunityHome;

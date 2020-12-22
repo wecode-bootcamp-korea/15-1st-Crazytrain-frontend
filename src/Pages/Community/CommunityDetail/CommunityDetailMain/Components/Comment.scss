@@ -4,8 +4,6 @@ section.Comment {
   width: 750px;
   padding-top: 70px;
   border-top: 1px solid #ededed;
-  max-height: 600px;
-  overflow: scroll;
 
   header {
     @extend %flex-align-center;
@@ -57,45 +55,53 @@ section.Comment {
       cursor: pointer;
     }
   }
+  section.commentsList {
+    max-height: 600px;
+    overflow: scroll;
 
-  section.comments {
-    @extend %flex-align-center;
-    justify-content: space-between;
-    margin-bottom: 25px;
-
-    div.column {
+    section.comments {
       @extend %flex-align-center;
+      justify-content: space-between;
+      margin-bottom: 25px;
 
-      img {
-        width: 30px;
-        height: 30px;
-        margin-right: 10px;
-        border-radius: 50%;
-        cursor: pointer;
-      }
+      div.column {
+        @extend %flex-align-center;
 
-      span {
-        margin-right: 10px;
-        cursor: pointer;
-
-        &.userName {
-          font-weight: bold;
+        img {
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+          border-radius: 50%;
+          cursor: pointer;
         }
-      }
 
-      .svg-icon {
-        width: 20px;
-        height: 20px;
-        cursor: pointer;
+        span {
+          margin-right: 10px;
+          cursor: pointer;
 
-        path,
-        polygon,
-        rect {
-          fill: #424242;
+          &.userName {
+            font-weight: bold;
+          }
         }
-        circle {
-          stroke: #4691f6;
-          stroke-width: 1;
+
+        .svg-icon {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+
+          path,
+          polygon,
+          rect {
+            fill: #424242;
+          }
+          circle {
+            stroke: #4691f6;
+            stroke-width: 1;
+          }
+        }
+
+        &:nth-child(2) {
+          padding-right: 20px;
         }
       }
     }
