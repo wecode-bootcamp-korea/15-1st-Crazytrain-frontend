@@ -5,6 +5,7 @@ import CommunityPage from "./CommunityPage";
 import StorePage from "./StorePage";
 import WritingList from "./WritingList";
 import OutsideClickHandler from "react-outside-click-handler";
+import Baguni from "./Baguni";
 
 class Navigation extends Component {
   constructor() {

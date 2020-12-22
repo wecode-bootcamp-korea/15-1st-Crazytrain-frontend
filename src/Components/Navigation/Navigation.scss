@@ -9,11 +9,10 @@
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
   height: 80px;
   border-bottom: 1px solid #dbdbdb;
   width: 100%;
-  z-index: 100;
+  z-index: 1000000;
 }
 .navHead {
   display: flex;
