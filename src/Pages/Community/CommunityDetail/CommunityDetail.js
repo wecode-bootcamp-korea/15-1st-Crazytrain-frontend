@@ -33,6 +33,7 @@ class CommunityDetail extends Component {
       posts: newPost,
     });
   };
+
   render() {
     const {
       categories,

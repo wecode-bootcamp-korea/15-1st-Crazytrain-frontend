@@ -83,26 +83,6 @@ section.Comment {
             font-weight: bold;
           }
         }
-
-        .svg-icon {
-          width: 20px;
-          height: 20px;
-          cursor: pointer;
-
-          path,
-          polygon,
-          rect {
-            fill: #424242;
-          }
-          circle {
-            stroke: #4691f6;
-            stroke-width: 1;
-          }
-        }
-
-        &:nth-child(2) {
-          padding-right: 20px;
-        }
       }
     }
   }
