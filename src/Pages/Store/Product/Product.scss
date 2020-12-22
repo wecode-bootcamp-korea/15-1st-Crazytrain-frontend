@@ -8,6 +8,8 @@
     background-color: blanchedalmond;
 
     .overviewCategory {
+      height: 30px;
+      line-height: 30px;
       background-color: blueviolet;
       margin-top: 20px;
       margin-bottom: 40px;
@@ -31,24 +33,21 @@
               width: 56px;
               height: 56px;
               margin-bottom: 10px;
+              border-radius: 5px;
             }
           }
         }
 
         .bigImageWrap {
-          width: 610px;
-          height: 600px;
-          background-color: darkcyan;
-
           img {
-            width: 550px;
-            height: 550px;
+            width: 570px;
+            height: 570px;
+            border-radius: 20px;
           }
         }
       }
 
       .rowRight {
-        width: 500px;
         height: 600px;
         background-color: chartreuse;
         padding: 0 20px;
@@ -57,6 +56,76 @@
           width: 460px;
           height: 350px;
           background-color: darkgoldenrod;
+
+          .headerContiner {
+            background-color: royalblue;
+            .brandName {
+            }
+            .productTitle {
+            }
+          }
+
+          .headerContent {
+            position: relative;
+            .headerAction {
+              position: absolute;
+              right: 0;
+
+              .actionButton {
+                width: 40px;
+                .svg-icon {
+                  width: 2.5em;
+                  height: 2.5em;
+                }
+
+                .svg-icon path,
+                .svg-icon polygon,
+                .svg-icon rect {
+                  fill: gray;
+                }
+
+                .svg-icon circle {
+                  stroke: gray;
+                  stroke-width: 1;
+                }
+              }
+            }
+
+            .headerReview {
+              background-color: red;
+            }
+
+            .headerPrice {
+              height: 44px;
+              background-color: silver;
+              margin-top: 20px;
+              .priceDiscount {
+              }
+              .pricePrice {
+              }
+              .itemBadge {
+                // 크기는 나중에 맞춰서 수정
+                width: 30px;
+                height: 20px;
+                font-size: 13px;
+                color: white;
+                background-color: #fe7777;
+                text-align: center;
+                line-height: 20px;
+                border-radius: 3px;
+                margin-top: 8px;
+              }
+            }
+
+            .headerCoupon {
+              margin-top: 20px;
+              .couponButton {
+              }
+
+              .icon {
+              }
+            }
+          }
         }
 
         .optionForm {
