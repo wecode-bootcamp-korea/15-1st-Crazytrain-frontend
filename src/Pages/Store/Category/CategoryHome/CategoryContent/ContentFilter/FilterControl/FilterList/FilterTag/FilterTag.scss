@@ -1,0 +1,19 @@
+.FilterTag {
+  display: inline-block;
+  cursor: pointer;
+
+  .tagButton {
+    height: 36px;
+    padding: 0 12px;
+    background-color: #37507d;
+    color: white;
+    margin-right: 6px;
+    font-size: 14px;
+    border-radius: 18px;
+
+    .removeButton {
+      background-color: #37507d;
+      color: white;
+    }
+  }
+}

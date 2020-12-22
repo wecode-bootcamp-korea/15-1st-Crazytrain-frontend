@@ -8,6 +8,7 @@ import Navigation from "./Components/Navigation/Navigation";
 import WritingList from "./Components/Navigation/WritingList";
 import UploadImg from "./Components/Navigation/UploadImg";
 import Baguni from "./Components/Navigation/Baguni";
+import Product from "./Pages/Store/Product/Product";
 
 class Routes extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class Routes extends React.Component {
           <Route exact path="/store" component={Store} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={Signup} />
+          <Route exact path="/store/product" component={Product} />
         </Switch>
       </Router>
     );

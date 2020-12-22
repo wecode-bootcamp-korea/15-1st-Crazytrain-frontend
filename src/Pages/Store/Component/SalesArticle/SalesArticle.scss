@@ -1,0 +1,112 @@
+.SalesArticle {
+  .itemOverlay {
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+      .itemContent {
+        .itemTitle {
+          color: #757575;
+        }
+      }
+    }
+
+    .imageWrap {
+      overflow: hidden;
+
+      img.mdpick {
+        width: 160px;
+        height: 160px;
+      }
+      img.mainList {
+        width: 270px;
+        height: 270px;
+      }
+
+      img {
+        display: block;
+        border-radius: 7px;
+        transition: transform 0.3s ease;
+      }
+    }
+
+    .itemContent.mdpick {
+      width: 160px;
+    }
+
+    .itemContent.mainList {
+      width: 270px;
+    }
+
+    .itemContent {
+      height: 130px;
+
+      .itemBrandName {
+        color: #757575;
+        font-size: 11px;
+        font-weight: 400;
+        margin: 10px 0;
+      }
+
+      .itemTitle {
+        font-size: 13px;
+        max-height: 33px;
+        margin-top: 5px;
+        font-weight: 400;
+        line-height: 17px;
+        color: black;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        transition: color 0.3s ease;
+      }
+
+      .itemPrice {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 23px;
+        margin-top: 5px;
+
+        .itemPriceRate {
+          color: #35c5f0;
+          margin-right: 6px;
+        }
+      }
+
+      .itemStat {
+        margin-top: 3px;
+
+        .statStar {
+          float: left;
+          height: 16px;
+          margin-right: 2px;
+        }
+
+        .statStarCount {
+          font-size: 12px;
+          margin-right: 4px;
+        }
+
+        .statReview {
+          font-size: 12px;
+          color: #9e9e9e;
+          font-weight: 700;
+        }
+
+        .itemBadge {
+          width: 30px;
+          height: 20px;
+          font-size: 10px;
+          color: white;
+          background-color: #fe7777;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 3px;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}
