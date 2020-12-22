@@ -4,6 +4,7 @@ import CommunityHome from "./Pages/Community/CommunityHome/CommunityHome";
 import Store from "./Pages/Store/Store";
 import Login from "./Pages/Account/Login/Login";
 import Signup from "./Pages/Account/Signup/Signup";
+import Footer from "./Components/Footer/Footer";
 
 class Routes extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class Routes extends React.Component {
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={Signup} />
         </Switch>
+        <Footer />
       </Router>
     );
   }
