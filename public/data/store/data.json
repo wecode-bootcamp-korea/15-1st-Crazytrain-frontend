@@ -1,9 +1,9 @@
 {
   "categories": [
     {
-      "categoryId": 0,
+      "categoryId": 1,
       "category": "가구",
-      "subCategory": [
+      "subCategories": [
         "소파/거실가구",
         "침실가구",
         "드레스룸",
@@ -16,9 +16,9 @@
       ]
     },
     {
-      "categoryId": 1,
+      "categoryId": 2,
       "category": "패브릭",
-      "subCategory": [
+      "subCategories": [
         "침구",
         "커튼/블라인드",
         "카페트/러그",
@@ -30,9 +30,9 @@
       ]
     },
     {
-      "categoryId": 2,
+      "categoryId": 3,
       "category": "홈데코/조명",
-      "subCategory": [
+      "subCategories": [
         "크리스마스",
         "조명",
         "시계",
@@ -45,9 +45,9 @@
       ]
     },
     {
-      "categoryId": 3,
+      "categoryId": 4,
       "category": "가전",
-      "subCategory": [
+      "subCategories": [
         "주방가전",
         "생활가전",
         "청소가전",
@@ -58,9 +58,9 @@
       ]
     },
     {
-      "categoryId": 4,
+      "categoryId": 5,
       "category": "수납/정리",
-      "subCategory": [
+      "subCategories": [
         "수납장/서랍장",
         "리빙박스/수납함",
         "바구니/바스켓",

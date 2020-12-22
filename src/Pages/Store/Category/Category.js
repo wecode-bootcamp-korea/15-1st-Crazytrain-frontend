@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CategorySidebar from "./Component/CategorySidebar/CategorySidebar";
-import CategoryContent from "./Component/CategoryContent/CategoryContent";
+import CategorySidebar from "./CategoryHome/CategorySidebar/CategorySidebar";
+import CategoryContent from "./CategoryHome/CategoryContent/CategoryContent";
 import "./Category.scss";
 
 class Category extends Component {

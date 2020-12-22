@@ -1,0 +1,20 @@
+.ContentMdpick {
+  height: 350px;
+  margin: 50px 0 30px;
+
+  .mdpickTitle {
+    height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 20px 0;
+    color: #424242;
+  }
+
+  .mdpickItems {
+    .itemsWrap {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
