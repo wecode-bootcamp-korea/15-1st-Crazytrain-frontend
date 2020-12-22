@@ -7,9 +7,13 @@ import "./CategoryContent.scss";
 
 class CategoryContent extends Component {
   render() {
+    const { clickValue, selectCategory } = this.props;
     return (
       <div className="CategoryContent">
-        <ContentHeader />
+        <ContentHeader
+          clickValue={clickValue}
+          selectCategory={selectCategory}
+        />
         <ContentMdpick />
         <ContentFilter />
         <ContentRow />
