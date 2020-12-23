@@ -22,6 +22,7 @@ class Comment extends Component {
 
   render() {
     const { comments } = this.props;
+    const { inputValue } = this.state;
     return (
       <section className="Comment">
         <header>
@@ -30,29 +31,29 @@ class Comment extends Component {
         </header>
         <form>
           <img
-            src={"/images/community/userprofileimage.jpeg"}
+            src="/images/community/userprofileimage.jpeg"
             alt={"userProfile"}
           />
           <input
-            value={this.state.inputValue}
+            value={inputValue}
             onChange={this.updateInputValue}
             placeholder="칭찬과 격려의 댓글은 작성자에게 큰 힘이 됩니다 :)"
           />
           <button
-            disabled={this.state.inputValue.length === 0 ? true : false}
+            disabled={inputValue.length === 0 ? true : false}
             onClick={this.addComment}
           >
             등록
           </button>
         </form>
         <section className="commentsList">
-          {comments?.map(comment => {
+          {comments?.map(({ id, userProfileImage, userId, comment }) => {
             return (
-              <section key={comment.id} className="comments">
+              <section key={id} className="comments">
                 <div className="column">
-                  <img src={comment.userProfileImage} alt="asd" />
-                  <span className="userName">{comment.userId}</span>
-                  <span>{comment.comment}</span>
+                  <img src={userProfileImage} alt="asd" />
+                  <span className="userName">{userId}</span>
+                  <span>{comment}</span>
                 </div>
               </section>
             );

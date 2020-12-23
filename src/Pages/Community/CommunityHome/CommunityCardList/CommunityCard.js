@@ -60,7 +60,7 @@ class CommunityCard extends React.Component {
           className="cardImage addCursor"
         >
           <img className={isMainImageSelected} alt="contentImage" src={image} />
-          <span>{`조회수 ${views}`}</span>
+          <span>{`조회수 ${views.toLocaleString()}`}</span>
         </div>
         <section className="icons">
           <div className="column addCursor">
