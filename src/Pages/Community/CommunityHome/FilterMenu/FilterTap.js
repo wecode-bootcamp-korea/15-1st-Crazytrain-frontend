@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FilterTapData } from "./FilterTapData";
+import { withRouter } from "react-router-dom";
 import FilterTapCard from "./FilterTapCard";
 import FilterSelected from "./FilterSelected";
 import "./FilterTap.scss";
@@ -20,15 +21,22 @@ class FilterTap extends Component {
     }
     if (index !== -1) newFilter.splice(index, 1);
     newFilter.push(tap);
-    this.setState({
+    this.setState(prev => ({
       selectedFilter: newFilter,
-    });
+    }));
+    console.log(newFilter);
+    this.props.history.push(`/?${tap.tapId}=${tap.id}`); // 백엔드에서 쿼리 스트링 만들어 주는대로, 제대로 들어갈 예정입니다.
   };
+
+  componentDidUpdate(prevProps, _) {
+    // 필터에 따라서 새로 리퀘스트를 보내는 함수가 올 예정.
+  }
 
   clearFilter = () => {
     this.setState({
       selectedFilter: [],
     });
+    this.props.history.push("/");
   };
 
   deleteFilter = targetFilter => {
@@ -68,4 +76,4 @@ class FilterTap extends Component {
   }
 }
 
-export default FilterTap;
+export default withRouter(FilterTap);

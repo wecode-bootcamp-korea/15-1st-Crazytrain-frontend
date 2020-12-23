@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import "./CommunityCard.scss";
 
 class CommunityCard extends React.Component {
@@ -12,6 +13,10 @@ class CommunityCard extends React.Component {
     this.setState(prev => ({
       [key]: !prev[key],
     }));
+  };
+
+  goToDetail = () => {
+    this.props.history.push("/community");
   };
 
   render() {
@@ -49,12 +54,13 @@ class CommunityCard extends React.Component {
           <span className="addCursor follow">{"팔로우"}</span>
         </header>
         <div
+          onClick={this.goToDetail}
           onMouseEnter={() => this.toggleSelected("isMainSelected")}
           onMouseLeave={() => this.toggleSelected("isMainSelected")}
           className="cardImage addCursor"
         >
           <img className={isMainImageSelected} alt="contentImage" src={image} />
-          <span>{`조회수 ${views}`}</span>
+          <span>{`조회수 ${views.toLocaleString()}`}</span>
         </div>
         <section className="icons">
           <div className="column addCursor">
@@ -71,6 +77,7 @@ class CommunityCard extends React.Component {
           </div>
         </section>
         <section
+          onClick={this.goToDetail}
           onMouseEnter={() => this.toggleSelected("isMainSelected")}
           onMouseLeave={() => this.toggleSelected("isMainSelected")}
           className={`content addCursor ${isMainContentSelected}`}
@@ -101,4 +108,4 @@ class CommunityCard extends React.Component {
   }
 }
 
-export default CommunityCard;
+export default withRouter(CommunityCard);

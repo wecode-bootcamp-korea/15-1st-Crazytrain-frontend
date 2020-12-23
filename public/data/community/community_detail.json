@@ -1,0 +1,127 @@
+{
+  "community_detail": {
+    "post_id": 0,
+    "categories": [
+      {
+        "name": "아파트"
+      },
+      {
+        "name": "10평대"
+      },
+      {
+        "name": "북유럽"
+      }
+    ],
+    "contents": [
+      {
+        "id": 0,
+        "mainImage": "/images/community/community_detail/detailSample1.png",
+        "contents": "아이보리 빛 아담한 저희 집 주방이에요 :)",
+        "markerList": [
+          {
+            "x": 123,
+            "y": 563,
+            "details": {
+              "itemId": 123,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "어썸 프레임",
+              "name": "비정형 거울 라바(s)",
+              "price": 55200
+            }
+          },
+          {
+            "x": 592,
+            "y": 586,
+            "details": {
+              "itemId": 124,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 20000
+            }
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "mainImage": "/images/community/community_detail/detailSample11.png",
+        "contents": "아이보리 빛 아담한 저희 집 주방이에요 :)",
+        "markerList": [
+          {
+            "x": 150,
+            "y": 138,
+            "details": {
+              "itemId": 123,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 1230000
+            }
+          },
+          {
+            "x": 476,
+            "y": 545,
+            "details": {
+              "itemId": 124,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 20000
+            }
+          },
+          {
+            "x": 495,
+            "y": 925,
+            "details": {
+              "itemId": 125,
+              "image": "/images/community/community_detail/detailSample2.png",
+              "brandName": "브랜드네임",
+              "name": "아이템 이름",
+              "price": 102000
+            }
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "id": 0,
+        "userId": "HTHStudy",
+        "userProfileImage": "/images/community/community_detail/detail_profileSample3.png",
+        "comment": "붓싼❤️ "
+      },
+      {
+        "id": 1,
+        "userId": "youngjae_kim123",
+        "userProfileImage": "/images/community/community_detail/detail_profileSample2.png",
+        "comment": "성훈님 정말 엉망징창이네요"
+      }
+    ],
+    "likeNum": 1203,
+    "bookmarkNum": 1242,
+    "writerName": "tonyk0901",
+    "writerProfileImage": "/images/community/community_detail/detail_profileSample1.png",
+    "otherFeeds": [
+      {
+        "id": 123,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 124,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 125,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 126,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      },
+      {
+        "id": 127,
+        "feedImage": "/images/community/community_detail/detailSample1.png"
+      }
+    ]
+  }
+}
