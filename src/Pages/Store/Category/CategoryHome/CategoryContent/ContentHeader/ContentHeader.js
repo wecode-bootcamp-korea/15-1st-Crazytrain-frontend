@@ -5,11 +5,11 @@ import "./ContentHeader.scss";
 class ContentHeader extends Component {
   render() {
     const { selectCategory, clickValue } = this.props;
-
+    const isTrue = selectCategory.category && clickValue;
     return (
       <div className="ContentHeader">
         <div className="headerCategory">
-          {`${selectCategory.category} > ${clickValue}`}
+          {isTrue ? `${selectCategory.category} > ${clickValue}` : "가구"}
         </div>
         <ContentHeaderSwiper />
       </div>

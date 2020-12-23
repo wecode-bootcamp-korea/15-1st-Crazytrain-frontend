@@ -4,20 +4,7 @@ import CategoryListItem from "./CategoryListItem/CategoryListItem";
 import "./CategorySidebar.scss";
 
 class CategorySidebar extends Component {
-  // state = {
-  //   clicked: false,
-  //   clickValue: "",
-  // };
-
-  // buttonClick = (value, clicked) => {
-  //   this.setState({
-  //     clicked: clicked,
-  //     clickValue: value,
-  //   });
-  // };
-
   render() {
-    // const { buttonClick } = this.props;
     const { clicked, clickValue, buttonClick } = this.props;
     const { selectCategory, unSelectCategory, clickCategory } = this.props;
 

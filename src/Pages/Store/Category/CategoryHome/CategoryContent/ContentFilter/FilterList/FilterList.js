@@ -8,6 +8,7 @@ class FilterList extends Component {
 
   changeCheckbox = e => {
     const { addTag, removeTag } = this.props;
+
     this.setState(
       {
         checked: e.target.checked,

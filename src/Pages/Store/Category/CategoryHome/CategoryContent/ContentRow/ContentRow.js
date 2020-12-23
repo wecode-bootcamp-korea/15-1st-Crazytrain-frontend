@@ -71,6 +71,7 @@ class ContentRow extends Component {
 
   render() {
     const { onOutsideClick } = this;
+    // const { clickValue } = this.props;ss
 
     return (
       <div className="ContentRow">

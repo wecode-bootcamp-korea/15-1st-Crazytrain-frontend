@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import FilterControl from "./FilterControl/FilterControl";
-import FilterTag from "./FilterControl/FilterList/FilterTag/FilterTag";
+import FilterTag from "./FilterTag/FilterTag";
 import "./ContentFilter.scss";
 
 class ContentFilter extends Component {
@@ -8,6 +8,7 @@ class ContentFilter extends Component {
     categories: [],
     names: [],
     tags: [],
+    removeText: "",
   };
 
   clickRestTag = () => {
@@ -21,6 +22,7 @@ class ContentFilter extends Component {
 
     this.setState({
       tags: tags.filter(tag => tag.text !== value.text),
+      removeText: value.text,
     });
   };
 

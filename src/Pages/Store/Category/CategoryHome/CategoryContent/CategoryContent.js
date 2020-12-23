@@ -16,7 +16,7 @@ class CategoryContent extends Component {
         />
         <ContentMdpick />
         <ContentFilter />
-        <ContentRow />
+        <ContentRow clickValue={clickValue} />
       </div>
     );
   }

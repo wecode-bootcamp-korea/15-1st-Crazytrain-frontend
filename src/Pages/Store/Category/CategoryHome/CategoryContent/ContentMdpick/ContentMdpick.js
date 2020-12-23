@@ -3,12 +3,9 @@ import SalesArticle from "../../../../Component/SalesArticle/SalesArticle";
 import "./ContentMdpick.scss";
 
 class ContentMdpick extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      mdpickArticle: [],
-    };
-  }
+  state = {
+    mdpickArticle: [],
+  };
 
   componentDidMount() {
     fetch("/data/store/products.json")
