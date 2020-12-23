@@ -5,9 +5,6 @@ import Store from "./Pages/Store/Store";
 import Login from "./Pages/Account/Login/Login";
 import Signup from "./Pages/Account/Signup/Signup";
 import Navigation from "./Components/Navigation/Navigation";
-import WritingList from "./Components/Navigation/WritingList";
-import UploadImg from "./Components/Navigation/UploadImg";
-import Baguni from "./Components/Navigation/Baguni";
 import Product from "./Pages/Store/Product/Product";
 
 class Routes extends React.Component {
@@ -15,9 +12,6 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/Baguni" component={Baguni} />
-          <Route exact path="/UploadImg/:id" component={UploadImg} />
-          <Route exact path="/WritingList" component={WritingList} />
           <Route exact path="/Navigation" component={Navigation} />
           <Route exact path="/community" component={CommunityHome} />
           <Route exact path="/store" component={Store} />
