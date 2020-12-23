@@ -1,1 +1,29 @@
-{}
+{
+  "data": [
+    {
+      "title": "욕망의 항아리",
+      "productImage": "/images/navigation/a.png",
+      "productPricePcik": "50000원"
+    },
+    {
+      "title": "홀리 토니",
+      "productImage": "/images/navigation/c.png",
+      "productPricePcik": "40000원"
+    },
+    {
+      "title": "나서스",
+      "productImage": "/images/navigation/d.png",
+      "productPricePcik": "30000원"
+    },
+    {
+      "title": "풍댕이",
+      "productImage": "/images/navigation/f.png",
+      "productPricePcik": "20000원"
+    },
+    {
+      "title": "아이패드",
+      "productImage": "/images/navigation/g.png",
+      "productPricePcik": "10000원"
+    }
+  ]
+}
