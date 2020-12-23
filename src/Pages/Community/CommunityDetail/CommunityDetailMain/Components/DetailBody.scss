@@ -1,0 +1,25 @@
+@import "../../../../../Styles/common.scss";
+
+.CommunityDetailBody {
+  .bodyMain {
+    position: relative;
+    width: 750px;
+
+    .bodyMainImage {
+      width: 100%;
+    }
+    &:hover .Marker {
+      visibility: visible;
+      opacity: 0.8;
+    }
+  }
+
+  .subImages {
+    @extend %flex-align-center;
+  }
+
+  p {
+    margin-bottom: 70px;
+    color: #424242;
+  }
+}

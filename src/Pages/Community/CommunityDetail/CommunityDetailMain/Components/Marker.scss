@@ -1,0 +1,120 @@
+@import "../../../../../Styles/common.scss";
+
+.Marker {
+  @extend %flex-center;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #5fc0dd;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.1s ease;
+  cursor: pointer;
+
+  .bubbleWrapper {
+    position: absolute;
+    top: 25px;
+    width: 280px;
+    height: 130px;
+    border-radius: 5px;
+    cursor: default;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.1s ease;
+
+    &.makeVisible {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .bubble {
+      @extend %flex-align-center;
+      justify-content: space-between;
+      position: absolute;
+      top: 20px;
+      width: 280px;
+      height: 110px;
+      padding: 10px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 2px 2px 11px 5px rgba(0, 0, 0, 0.38);
+      color: black;
+      cursor: pointer;
+
+      &:after {
+        border-top: 0px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid white;
+        content: "";
+        position: absolute;
+        left: calc(50% - 10px);
+        top: -10px;
+      }
+
+      .column {
+        @extend %flex-align-center;
+
+        img {
+          width: 90px;
+          height: 90px;
+          border-radius: 2px;
+          margin-right: 10px;
+        }
+
+        section {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          width: 140px;
+          height: 90px;
+
+          div {
+            &:nth-child(1) {
+              font-size: 10px;
+              color: #757575;
+            }
+
+            &:nth-child(2) {
+              font-size: 13px;
+            }
+
+            &:nth-child(3) {
+              font-size: 20px;
+              font-weight: bold;
+            }
+          }
+        }
+
+        .svg-icon {
+          width: 1em;
+          height: 1em;
+
+          path,
+          polygon,
+          rect {
+            fill: #757575;
+          }
+
+          circle {
+            stroke: #4691f6;
+            stroke-width: 1;
+          }
+        }
+      }
+    }
+  }
+
+  &:hover > .bubbleWrapper {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &.makeVisible {
+    visibility: visible;
+    opacity: 0.8;
+  }
+}

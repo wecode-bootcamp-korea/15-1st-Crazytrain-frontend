@@ -39,7 +39,6 @@ class Product extends Component {
     const price = 138000;
     return (
       <>
-        <nav>네비게이션 없으니 눈이 불편하구나....</nav>
         <div className="Product">
           <div>
             <div className="overviewContainer">
