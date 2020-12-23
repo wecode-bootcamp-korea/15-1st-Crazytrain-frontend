@@ -19,11 +19,12 @@
 
       .rowLeft {
         display: flex;
+        justify-content: flex-start;
         width: 700px;
 
         .imageList {
           width: 56px;
-          padding: 0 17px;
+          margin-right: 45px;
 
           .smallImage {
             img {

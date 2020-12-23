@@ -19,9 +19,7 @@ class SalesArticle extends Component {
               <div className="itemPrice">
                 <span className="itemPriceRate">{article.itemPriceRate}%</span>
                 <span className="itemPricePrice">
-                  {article.itemPricePrice
-                    .toString()
-                    .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}
+                  {article.itemPricePrice.toLocaleString()}
                   {article.isPackage ? "외" : "원"}
                 </span>
               </div>

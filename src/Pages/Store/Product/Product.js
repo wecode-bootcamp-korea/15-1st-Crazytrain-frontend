@@ -32,7 +32,11 @@ const SMALL_IMAGES = [
 const NAV_CATEGORIES = ["상품정보", "리뷰", "문의", "배송/환불", "추천"];
 
 class Product extends Component {
+  state = {
+    clicked: false,
+  };
   render() {
+    const price = 138000;
     return (
       <>
         <nav>네비게이션 없으니 눈이 불편하구나....</nav>
@@ -91,7 +95,9 @@ class Product extends Component {
                           <span className="percent">%</span>
                         </span>
                         <span className="pricePrice">
-                          <span className="number">{138000}</span>
+                          <span className="number">
+                            {price.toLocaleString()}
+                          </span>
                           <span className="won">원</span>
                           <span className="won">외</span>
                           <span className="itemBadge">특가</span>

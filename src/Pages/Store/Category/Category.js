@@ -53,6 +53,7 @@ class Category extends Component {
       unSelectCategory: categories.filter(
         category => category.categoryId !== id
       ),
+      clickValue: "",
     });
   };
 
