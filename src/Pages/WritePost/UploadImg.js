@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./UploadImg.scss";
-import { UploadImgData } from "./UploadImgData";
+import { UploadImgData } from "../../Components/Navigation/UploadImgData";
 
 class UploadImg extends Component {
   constructor() {
