@@ -1,12 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 
-class Login extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+class Login extends Component {
   render() {
-    return <h1>haha</h1>;
+    return <div>haha</div>;
   }
 }
 

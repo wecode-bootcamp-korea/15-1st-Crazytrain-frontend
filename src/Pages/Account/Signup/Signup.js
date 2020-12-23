@@ -1,10 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
 
-class Signup extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+class Signup extends Component {
   render() {
     return <div>haha</div>;
   }
