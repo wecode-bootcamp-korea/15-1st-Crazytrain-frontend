@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FilterTap from "./FilterMenu/FilterTap";
 import CommunityCardList from "./CommunityCardList/CommunityCardList";
+import Footer from "../../../Components/Footer/Footer";
 import { API } from "../../../config";
 import "./CommunityHome.scss";
 
@@ -45,6 +46,7 @@ class CommunityHome extends Component {
             />
           </div>
         </main>
+        <Footer />
       </>
     );
   }
