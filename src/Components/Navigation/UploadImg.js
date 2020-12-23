@@ -3,6 +3,45 @@ import "./UploadImg.scss";
 import { UploadImgData } from "./UploadImgData";
 
 class UploadImg extends Component {
+  constructor() {
+    super();
+    this.state = {
+      yj: "",
+      sh: "",
+      th: "",
+      mc: "",
+    };
+  }
+
+  //backend통신준비
+  // getInfoToBack = e => {
+  //   const { yj, sh, th, mc } = this.state;
+  //   fetch(LOGIN_API, {
+  //     method: "POST",
+  //     body: JSON.stringify({
+  //       yj: this.state.yj,
+  //       sh: this.state.sh,
+  //       th: this.state.th,
+  //       mc: this.state.mc,
+  //     }),
+  //   })
+  //     .then(response => response.json())
+  //     .then(result => {
+  //       if (result.message === "SUCCESS") {
+  //         window.alert("good");
+  //       } else {
+  //         window.alert("fail");
+  //       }
+  //     });
+  // };
+
+  checkInputVal = e => {
+    const { name, value } = e.target;
+    this.setState({
+      [name]: value,
+    });
+  };
+
   render() {
     console.log();
     return (
@@ -63,7 +102,9 @@ class UploadImg extends Component {
             </div>
           </div>
           <div className="footer">
-            <button className="footBtn">올리기</button>
+            <button className="footBtn" onClick={this.getInfoToBack}>
+              올리기
+            </button>
           </div>
         </div>
       </div>

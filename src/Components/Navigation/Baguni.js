@@ -15,6 +15,7 @@ class Baguni extends Component {
       pick2: false,
       pick3: false,
       pick4: false,
+      pickProduct: [],
     };
   }
 
@@ -53,6 +54,21 @@ class Baguni extends Component {
         });
       });
   };
+  //back-end 통신준비
+  // getProductList = () => {
+  //   fetch(LOGIN_API, {
+  //     method: "GET",
+  //     headers: {
+  //       authorization: localStorage.getItem("TOKEN"),
+  //     },
+  //   })
+  //     .then(response => resizeBy.json())
+  //     .then(result => {
+  //       this.setState({
+  //         pickProduct: result.data,
+  //       });
+  //     });
+  // };
   //아직 고민중인 로직이라 지우지 않았습니다!!
   // componentDidUpdate(prevProps, prevState) {
   //   const { pick1, pick2, pick3, pick4, pick0 } = this.state;
