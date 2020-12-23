@@ -38,15 +38,13 @@ const community_List = [
 class CommunityPage extends Component {
   render() {
     return (
-      <>
-        <div className="CommunitySubNav">
-          {community_List.map((element, index) => (
-            <div key={index} className="communitySubNavContent">
-              {element.name}
-            </div>
-          ))}
-        </div>
-      </>
+      <div className="CommunitySubNav">
+        {community_List.map((element, index) => (
+          <div key={index} className="communitySubNavContent">
+            {element.name}
+          </div>
+        ))}
+      </div>
     );
   }
 }
