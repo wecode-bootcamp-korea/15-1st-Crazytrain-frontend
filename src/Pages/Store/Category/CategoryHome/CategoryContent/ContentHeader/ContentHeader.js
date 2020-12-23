@@ -9,7 +9,7 @@ class ContentHeader extends Component {
     return (
       <div className="ContentHeader">
         <div className="headerCategory">
-          {isTrue ? `${selectCategory.category} > ${clickValue}` : ""}
+          {isTrue && `${selectCategory.category} > ${clickValue}`}
         </div>
         <ContentHeaderSwiper />
       </div>

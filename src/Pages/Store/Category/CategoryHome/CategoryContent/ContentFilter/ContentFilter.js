@@ -79,7 +79,12 @@ class ContentFilter extends Component {
           </div>
           <button className="tagListClear" onClick={clickRestTag}>
             <div className="textBox">
-              <svg className="icon" width="14" height="14" viewBox="0 0 20 20">
+              <svg
+                className="icon"
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+              >
                 <g fill="none">
                   <path d="M0 0h20v20H0z" />
                   <path

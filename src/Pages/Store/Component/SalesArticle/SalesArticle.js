@@ -5,22 +5,24 @@ import "./SalesArticle.scss";
 class SalesArticle extends Component {
   render() {
     const { article, type } = this.props;
+    article && console.log(article.images[0]);
 
     return (
       <article className="SalesArticle">
         <Link to="/store/product">
           <div className="itemOverlay">
             <div className="imageWrap">
-              <img className={type} src={article.src} alt={article.alt} />
+              <img className={type} src={article.images[0]} alt={article.alt} />
             </div>
             <div className={`itemContent ${type}`}>
               <div className="itemBrandName">{article.brandName}</div>
               <div className="itemTitle">{article.articleName}</div>
               <div className="itemPrice">
-                <span className="itemPriceRate">{article.itemPriceRate}%</span>
+                {/* <span className="itemPriceRate">{article.itemPriceRate}%</span> */}
+                <span className="itemPriceRate">{30}%</span>
                 <span className="itemPricePrice">
-                  {article.itemPricePrice.toLocaleString()}
-                  {article.isPackage ? "외" : "원"}
+                  {article.option[0].price.toLocaleString()}
+                  {article.isPackage ? " 외" : " 원"}
                 </span>
               </div>
               <div className="itemStat">
@@ -39,7 +41,8 @@ class SalesArticle extends Component {
                   {article.statStarCount}
                 </strong>
                 <span className="statReview">
-                  리뷰 {article.statReviewCount}
+                  {/* 리뷰 {article.statReviewCount} */}
+                  리뷰 {114}
                 </span>
                 {article.itemBadge && (
                   <div className="itemBadge">{article.itemBadge}</div>

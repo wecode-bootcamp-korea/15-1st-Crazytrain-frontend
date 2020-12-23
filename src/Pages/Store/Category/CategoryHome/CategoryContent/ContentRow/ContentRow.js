@@ -47,7 +47,7 @@ class ContentRow extends Component {
   };
 
   fetchMoreData = () => {
-    fetch(`${API}/data/store/products.json`)
+    fetch(`${API}/data/store/products2.json`)
       .then(response => response.json())
       .then(result => {
         const {
@@ -57,9 +57,9 @@ class ContentRow extends Component {
         } = this.state;
 
         this.setState({
-          totalCards: result.salesArticles,
+          totalCards: result.productlist,
           storeCards: storeCards.concat(
-            result.salesArticles.slice(
+            result.productlist.slice(
               currentIndex,
               currentIndex + NUMBER_OF_ITEMS_TO_FETCH
             )
@@ -71,7 +71,6 @@ class ContentRow extends Component {
 
   render() {
     const { onOutsideClick } = this;
-    // const { clickValue } = this.props;ss
 
     return (
       <div className="ContentRow">

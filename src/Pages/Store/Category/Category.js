@@ -17,7 +17,8 @@ class Category extends Component {
 
   componentDidMount() {
     const { categoryId } = this.state;
-    // fetch(`${API}:8000/menu/category`) // 수한님 서버 통신 연습
+    // fetch(`http://10.168.2.99:8000/products?sub=1`) // 수한님 서버 통신 연습
+    //http://10.168.2.99:8000/products?sub=1
     fetch("/data/store/data.json")
       .then(response => response.json())
       .then(result => {

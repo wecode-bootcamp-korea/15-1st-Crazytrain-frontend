@@ -1,0 +1,199 @@
+{
+  "productlist": [
+    {
+      "id": 1,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "특가",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10000 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 2,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "특가",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 3,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "특가",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 4,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "특가",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 5,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "특가",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 6,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 7,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 8,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 9,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 10,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 11,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 12,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 13,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 14,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    },
+    {
+      "id": 15,
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "",
+      "isPackage": true,
+      "images": ["../images/store/gaming_chair.jpg"],
+      "option": [
+        { "color": "빨강", "price": 10 },
+        { "color": "파랑", "price": 10 }
+      ]
+    }
+  ]
+}

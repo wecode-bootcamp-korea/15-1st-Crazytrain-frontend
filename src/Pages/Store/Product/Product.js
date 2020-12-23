@@ -1,69 +1,82 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { API } from "../../../config";
 import "./Product.scss";
-
-const SMALL_IMAGES = [
-  {
-    src: "../images/store/smaple_desk2.webp",
-    alt: "test1",
-  },
-  {
-    src: "../images/store/smaple_desk2.webp",
-    alt: "test2",
-  },
-  {
-    src: "../images/store/smaple_desk2.webp",
-    alt: "test3",
-  },
-  {
-    src: "../images/store/smaple_desk2.webp",
-    alt: "test4",
-  },
-  {
-    src: "../images/store/smaple_desk2.webp",
-    alt: "test5",
-  },
-  {
-    src: "../images/store/smaple_desk2.webp",
-    alt: "test6",
-  },
-];
 
 const NAV_CATEGORIES = ["상품정보", "리뷰", "문의", "배송/환불", "추천"];
 
 class Product extends Component {
   state = {
     clicked: false,
+    productDetail: {},
   };
+
+  componentDidMount() {
+    // fetch("http://10.168.2.99:8000/products/2")
+    fetch(`${API}/data/store/products3.json`)
+      .then(response => response.json())
+      .then(result => {
+        this.setState({
+          productDetail: result.productdetail[0],
+        });
+      });
+  }
+
+  addCart = () => {
+    console.log(123);
+    fetch("http://10.168.2.99:8000/shopping/cart", {
+      method: "POST",
+      headers: {
+        // Authorization: localStorage.getItem("token"),
+        Authorization:
+          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.NwpC8Kujp2xApfX0n-OLf34ouXyZjAU0b3bBoH86itY",
+      },
+      body: JSON.stringify({
+        product_id: this.state.productDetail.id,
+        quantity: 1,
+        color_id: this.state.productDetail.options[0].color_id,
+        option_id: this.state.productDetail.options[0].option_id,
+      }),
+    })
+      .then(res => res.json())
+      .then(res => {
+        console.log(res);
+      });
+  };
+
   render() {
-    const price = 138000;
+    const { productDetail } = this.state;
+    console.log(productDetail);
+
     return (
       <>
         <div className="Product">
           <div>
             <div className="overviewContainer">
               <div className="overviewCategory">
-                {"가구 > 주방 > 홈바 / 아일랜드식탁"}
+                {`${productDetail.category} > ${productDetail.sub_category}`}
               </div>
               <div className="containerRow">
                 <div className="rowLeft">
                   <ul className="imageList">
-                    {SMALL_IMAGES.map((image, index) => (
-                      <li key={index} className="smallImage">
-                        <img src={image.src} alt={image.alt} />
-                      </li>
-                    ))}
+                    <li className="smallImage">
+                      {productDetail.product_image?.map((image, index) => (
+                        <img key={index} src={image} alt={productDetail.alt} />
+                      ))}
+                    </li>
                   </ul>
                   <div className="bigImageWrap">
-                    <img src="../images/store/sample_desk.webp" alt="test" />
+                    {productDetail.product_image?.map((image, index) => (
+                      <img key={index} src={image} alt={productDetail.alt} />
+                    ))}
                   </div>
                 </div>
                 <div className="rowRight">
                   <div className="rightHeader">
                     <div className="headerContainer">
-                      <div className="brandName">{"장인가구"}</div>
+                      <div className="brandName">{productDetail.brandName}</div>
                       <div className="productTitle">
-                        {"[3%쿠폰] 더크림 드레스룸/옷장 3colors"}
+                        {productDetail.articleName}
                       </div>
                     </div>
                     <div className="headerContent">
@@ -90,15 +103,19 @@ class Product extends Component {
                       </div>
                       <div className="headerPrice">
                         <span className="priceDiscount">
-                          <span className="number">{41}</span>
+                          <span className="number">{30}</span>
                           <span className="percent">%</span>
                         </span>
                         <span className="pricePrice">
                           <span className="number">
-                            {price.toLocaleString()}
+                            {productDetail.options &&
+                              productDetail.options[0].price.toLocaleString()}
                           </span>
-                          <span className="won">원</span>
-                          <span className="won">외</span>
+                          {productDetail.isPackage === "true" ? (
+                            <span className="won">외</span>
+                          ) : (
+                            <span className="won">원</span>
+                          )}
                           <span className="itemBadge">특가</span>
                         </span>
                       </div>
@@ -152,13 +169,22 @@ class Product extends Component {
                     >
                       <path d="M16.67 3.33H3.33V5h13.34V3.33zm.83 8.34V10l-.83-4.17H3.33L2.5 10v1.67h.83v5h8.34v-5H15v5h1.67v-5h.83zM10 15H5v-3.33h5V15z"></path>
                     </svg>
-                    <div className="simpleText">{"장인가구브랜드홈"}</div>
+                    <div className="simpleText">
+                      {productDetail.brandName}브랜드홈
+                    </div>
                   </Link>
                   <div className="optionForm">
                     <div className="sellingOption">
                       <button className="selectButton">
                         <div className="buttonProduction">
-                          <div className="text">상품을 선택하세요.</div>
+                          <select className="text">
+                            {productDetail.options?.map((opt, index) => (
+                              <option key={index}>
+                                {opt.color}
+                                {opt.price}
+                              </option>
+                            ))}
+                          </select>
                           <svg width="1em" height="1em" viewBox="0 0 15 15">
                             <path
                               fill="currentColor"
@@ -173,7 +199,9 @@ class Product extends Component {
                       </div>
                     </div>
                     <div className="optionFooter">
-                      <button className="button left">장바구니</button>
+                      <button className="button left" onClick={this.addCart}>
+                        장바구니
+                      </button>
                       <button className="button right">바로구매</button>
                     </div>
                   </div>
@@ -197,7 +225,9 @@ class Product extends Component {
               </ol>
             </div>
 
-            <div className="productMain"></div>
+            {/* <div className="productMain"></div> */}
+            <img src={productDetail.infoImage} alt="test" />
+            <div>{productDetail.productName}</div>
           </div>
         </div>
       </>
