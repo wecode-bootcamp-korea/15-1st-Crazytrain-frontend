@@ -1,0 +1,21 @@
+{
+  "productdetail": [
+    {
+      "id": 1,
+      "category": "가구",
+      "sub_category": "침실가구",
+      "alt": "의자를 팝니다.",
+      "brandName": "구찌의자",
+      "articleName": "의자를 팝니다.",
+      "itemBadge": "특가",
+      "isPackage": "true",
+      "product_image": ["../images/store/gaming_chair.jpg"],
+      "productName": "4인 소파",
+      "options": [
+        { "color": "빨강", "price": 10000, "color_id": 1, "option_id": 3 },
+        { "color": "파랑", "price": 10000, "color_id": 1, "option_id": 3 }
+      ],
+      "infoImage": "https://t3.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/JgZ/image/_Pp0m80w5X1zKkxFRZvu557jgAg.png"
+    }
+  ]
+}
