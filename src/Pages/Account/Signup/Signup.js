@@ -1,6 +1,6 @@
 import React from "react";
-import "./Signup.scss";
 import { Link } from "react-router-dom";
+import "./Signup.scss";
 
 class Signup extends React.Component {
   constructor() {
@@ -32,7 +32,6 @@ class Signup extends React.Component {
     })
       .then(res => res.json())
       .then(res => {
-        console.log(res);
         if (res.message === "SUCCESS") {
           window.alert("회원가입 성공");
           this.props.history.push("./Login");
@@ -72,28 +71,6 @@ class Signup extends React.Component {
     });
   };
 
-  //안녕...
-  // handleCheck1 = () => {
-  //   this.setState({
-  //     check1: !this.state.check1,
-  //   });
-  // };
-  // handleCheck2 = () => {
-  //   this.setState({
-  //     check2: !this.state.check2,
-  //   });
-  // };
-  // handleCheck3 = () => {
-  //   this.setState({
-  //     check3: !this.state.check3,
-  //   });
-  // };
-  // handleCheck4 = () => {
-  //   this.setState({
-  //     check4: !this.state.check4,
-  //   });
-  // };
-
   componentDidUpdate(prevProps, prevState) {
     const { check1, check2, check3, check4 } = this.state;
     let beforeValue = 0,
@@ -130,6 +107,7 @@ class Signup extends React.Component {
             className="signUpImg"
             src="/images/login/todayhome.png"
             alt="todayhome"
+            onClick={() => this.props.history.push("/")}
           />
           <div className="printContainer">
             <div className="signUpContainer">
@@ -167,7 +145,7 @@ class Signup extends React.Component {
                     name="email"
                   />
                   <span className="golbang">@</span>
-                  <select onClick={this.checkInputValue} name="emailAdress">
+                  <select onChange={this.checkInputValue} name="emailAdress">
                     <option selected>이메일 선택</option>
                     <option>naver.com</option>
                     <option>daum.net</option>

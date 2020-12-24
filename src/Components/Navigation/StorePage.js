@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 
 const store_List = [
   {
@@ -28,11 +29,16 @@ class StorePage extends Component {
     return (
       <div className="storeSubNav" onMouseLeave={this.props.toggleSubNav}>
         {store_List.map(element => (
-          <div className="storeSubNavContent">{element.name}</div>
+          <div
+            className="storeSubNavContent"
+            onClick={() => this.props.history.push("/storemain")}
+          >
+            {element.name}
+          </div>
         ))}
       </div>
     );
   }
 }
 
-export default StorePage;
+export default withRouter(StorePage);

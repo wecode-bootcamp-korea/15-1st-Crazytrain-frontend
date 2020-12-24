@@ -9,6 +9,7 @@ class FilterSelected extends Component {
         {selectedFilter.map(element => {
           return (
             <div
+              key={element.id + element.name}
               onClick={() => this.props.deleteFilter(element)}
               className="container addCursor"
             >

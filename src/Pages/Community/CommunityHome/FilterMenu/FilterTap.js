@@ -10,6 +10,13 @@ class FilterTap extends Component {
     selectedFilter: [],
   };
 
+  makeQueryString = filterList => {
+    return filterList.reduce(
+      (acc, curr, idx) => acc + `&${curr.query}=${curr.id}`,
+      ""
+    );
+  };
+
   addFilter = tap => {
     const newFilter = [...this.state.selectedFilter];
     let index = -1;
@@ -19,32 +26,30 @@ class FilterTap extends Component {
         break;
       }
     }
-    if (index !== -1) newFilter.splice(index, 1);
+    if (index !== -1) newFilter.splice(index, 1); // 중복되는 필터는 삭제
     newFilter.push(tap);
+    const query = this.makeQueryString(newFilter);
     this.setState(prev => ({
       selectedFilter: newFilter,
     }));
-    console.log(newFilter);
-    this.props.history.push(`/?${tap.tapId}=${tap.id}`); // 백엔드에서 쿼리 스트링 만들어 주는대로, 제대로 들어갈 예정입니다.
+    this.props.history.push(`?${query}`);
   };
 
-  componentDidUpdate(prevProps, _) {
-    // 필터에 따라서 새로 리퀘스트를 보내는 함수가 올 예정.
-  }
+  deleteFilter = targetFilter => {
+    const newFilter = [...this.state.selectedFilter];
+    newFilter.splice(newFilter.indexOf(targetFilter), 1);
+    const query = this.makeQueryString(newFilter);
+    this.setState({
+      selectedFilter: newFilter,
+    });
+    this.props.history.push(`?${query}`);
+  };
 
   clearFilter = () => {
     this.setState({
       selectedFilter: [],
     });
     this.props.history.push("/");
-  };
-
-  deleteFilter = targetFilter => {
-    const newFilter = [...this.state.selectedFilter];
-    newFilter.splice(newFilter.indexOf(targetFilter), 1);
-    this.setState({
-      selectedFilter: newFilter,
-    });
   };
 
   render() {

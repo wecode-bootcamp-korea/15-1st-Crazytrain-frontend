@@ -25,12 +25,14 @@ class Login extends React.Component {
     })
       .then(res => res.json())
       .then(res => {
+        console.log(res);
         if (res.message === "SUCCESS") {
-          console.log("goodjob");
-          alert("Login SUCCESS");
+          alert("로그인 성공");
           localStorage.setItem("token", res.TOKEN);
-          this.props.history.push("/Navigation");
-        } else alert("FAIL");
+          localStorage.setItem("username", res.NAME);
+          localStorage.setItem("profile", res.IMAGE);
+          this.props.history.push("/");
+        } else alert("회원 정보가 잘못되었읍니다.");
       });
   };
 
@@ -62,7 +64,7 @@ class Login extends React.Component {
       <div className="mainLogin">
         <div className="loginContainer">
           <div className="header">
-            <Link to="/Navigation">
+            <Link to="/">
               <img
                 className="loginLogo addCursor"
                 src="/images/login/todayhome.png"

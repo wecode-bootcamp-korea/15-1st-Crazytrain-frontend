@@ -3,7 +3,7 @@ import "./FilterTapCard.scss";
 
 class FilterTapCard extends Component {
   render() {
-    const { id, name, subTap } = this.props.filterTapCard;
+    const { id, name, query, subTap } = this.props.filterTapCard;
     return (
       <div className="FilterTapCard">
         <div
@@ -24,7 +24,10 @@ class FilterTapCard extends Component {
                 <div
                   key={tap.id}
                   className="subContainer"
-                  onClick={() => this.props.addFilter(tap)}
+                  onClick={() => {
+                    tap.query = query;
+                    this.props.addFilter(tap);
+                  }}
                 >
                   {id === 5 ? (
                     <div
