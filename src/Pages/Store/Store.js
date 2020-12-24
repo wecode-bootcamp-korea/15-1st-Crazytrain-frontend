@@ -4,6 +4,7 @@ import Footer from "../../Components/Footer/Footer";
 import Category from "./Category/Category";
 import "./Store.scss";
 
+import Test from "./test";
 class Store extends Component {
   render() {
     return (
@@ -11,6 +12,7 @@ class Store extends Component {
         <Navigation />
         <div className="Store">
           <Category />
+          <Test />
         </div>
         <Footer />
       </>

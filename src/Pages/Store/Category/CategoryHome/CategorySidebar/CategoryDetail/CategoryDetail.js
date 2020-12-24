@@ -2,32 +2,42 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./CategoryDetail.scss";
 
-const TEST_SUB_SUB_CATEGORYS = ["test1", "test2", "test3", "test4", "test5"];
+// const TEST_SUB_SUB_CATEGORYS = ["test1", "test2", "test3", "test4", "test5"];
 
 class CategoryDetail extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      clicked: false,
-    };
-  }
+  state = {
+    subClicked: false,
+  };
 
-  buttonClick = () => {
-    this.setState({
-      clicked: !this.state.clicked,
-    });
+  onMenuClick = () => {
+    const { category, buttonClick } = this.props;
+
+    this.setState(
+      {
+        subClicked: !this.state.subClicked,
+      },
+      () => {
+        buttonClick(category.name, this.state.subClicked);
+      }
+    );
   };
 
   render() {
-    const { category } = this.props;
+    const { onMenuClick } = this;
+    const { category, clickValue } = this.props;
 
     return (
-      <li className="CategoryDetail" onClick={this.buttonClick}>
+      <li className="CategoryDetail" onClick={onMenuClick}>
         <div className="listContainer addCursor">
-          <Link to="#">{category}</Link>
+          <Link
+            to="#"
+            className={category.name === clickValue ? "colorBlue" : ""}
+          >
+            {category.name}
+          </Link>
           <button className="addCursor">
             <svg
-              className={this.state.clicked ? "upIcon" : ""}
+              className={category.name === clickValue ? "upIcon" : ""}
               width="12"
               height="12"
             >
@@ -36,11 +46,15 @@ class CategoryDetail extends Component {
           </button>
         </div>
         <div className="expand">
-          <ul className={this.state.clicked ? "slideOutLeft" : "hideBox"}>
-            {TEST_SUB_SUB_CATEGORYS.map((categories, index) => {
+          <ul
+            className={
+              category.name === clickValue ? "slideOutLeft" : "hideBox"
+            }
+          >
+            {category.subSubCategories.map((category, index) => {
               return (
                 <li key={index} className="expandTree">
-                  <Link to="#">{categories}</Link>
+                  <Link to="#">{category}</Link>
                 </li>
               );
             })}

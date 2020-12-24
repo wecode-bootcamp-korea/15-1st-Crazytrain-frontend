@@ -5,72 +5,307 @@
 
   .overviewContainer {
     width: 1200px;
-    background-color: blanchedalmond;
+    margin-bottom: 40px;
 
     .overviewCategory {
-      background-color: blueviolet;
+      height: 30px;
+      line-height: 30px;
       margin-top: 20px;
-      margin-bottom: 40px;
     }
 
     .containerRow {
       display: flex;
+      margin-top: 20px;
 
       .rowLeft {
         display: flex;
+        justify-content: flex-start;
         width: 700px;
-        background-color: cadetblue;
 
         .imageList {
           width: 56px;
-          background-color: coral;
-          padding: 0 17px;
+          margin-right: 45px;
 
           .smallImage {
             img {
               width: 56px;
               height: 56px;
               margin-bottom: 10px;
+              border-radius: 5px;
             }
           }
         }
 
         .bigImageWrap {
-          width: 610px;
-          height: 600px;
-          background-color: darkcyan;
-
           img {
-            width: 550px;
-            height: 550px;
+            width: 570px;
+            height: 570px;
+            border-radius: 20px;
           }
         }
       }
 
       .rowRight {
-        width: 500px;
-        height: 600px;
-        background-color: chartreuse;
         padding: 0 20px;
 
         .rightHeader {
           width: 460px;
-          height: 350px;
-          background-color: darkgoldenrod;
+
+          .headerContainer {
+            .brandName {
+              font-size: 13px;
+              color: #34c5f0;
+            }
+            .productTitle {
+              font-size: 25px;
+              margin-top: 10px;
+            }
+          }
+
+          .headerContent {
+            position: relative;
+            border-bottom: 1px solid #ededed;
+            .headerAction {
+              position: absolute;
+              top: 10px;
+              right: 0;
+
+              .actionButton {
+                width: 40px;
+                background-color: white;
+                .svg-icon {
+                  width: 2.5em;
+                  height: 2.5em;
+                }
+
+                .svg-icon path,
+                .svg-icon polygon,
+                .svg-icon rect {
+                  fill: gray;
+                }
+
+                .svg-icon circle {
+                  stroke: gray;
+                  stroke-width: 1;
+                }
+              }
+            }
+
+            .headerReview {
+              height: 17px;
+              font-size: 13px;
+              margin-top: 10px;
+
+              .reviewCount {
+                margin-left: 10px;
+              }
+            }
+
+            .headerPrice {
+              margin-top: 10px;
+              padding: 5px 0;
+
+              .priceDiscount {
+                color: #34c5f0;
+                .number {
+                  font-size: 44px;
+                  font-weight: 700;
+                }
+
+                .percent {
+                  font-size: 20px;
+                  margin-right: 10px;
+                }
+              }
+
+              .pricePrice {
+                position: relative;
+
+                .number {
+                  font-size: 32px;
+                  font-weight: 700;
+                  margin-right: 3px;
+                }
+
+                .won {
+                  font-size: 28px;
+                  margin-right: 8px;
+                }
+
+                .itemBadge {
+                  position: absolute;
+                  bottom: 5px;
+                  display: inline-block;
+                  width: 30px;
+                  font-size: 13px;
+                  color: white;
+                  background-color: #fe7777;
+                  text-align: center;
+                  border-radius: 3px;
+                  padding: 4px 3px;
+                }
+              }
+            }
+
+            .headerCoupon {
+              margin: 20px 0 15px;
+
+              .couponButton {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                padding: 10px 0;
+                font-size: 15px;
+                color: #34c5f0;
+                border: 1px solid #34c5f0;
+                border-radius: 5px;
+              }
+            }
+          }
+
+          .headerDelivery {
+            border-bottom: 1px solid #ededed;
+            padding-bottom: 15px;
+
+            .deliveryType {
+              font-size: 15px;
+              margin: 15px 0;
+            }
+
+            .deliveryFee {
+              margin-bottom: 15px;
+
+              button {
+                border-radius: 5px;
+              }
+            }
+
+            .deliveryDisclaimerWrap {
+              .disclaimer {
+                font-size: 12px;
+                margin-bottom: 3px;
+              }
+            }
+          }
+        }
+
+        .sellerSimple {
+          display: flex;
+          justify-content: flex-end;
+          padding: 20px 0;
+          font-weight: 700;
+          color: #34c5f0;
+
+          .simpleText {
+            margin-left: 5px;
+          }
         }
 
         .optionForm {
           width: 460px;
-          height: 190px;
-          background-color: darkorchid;
+
+          .sellingOption {
+            padding-top: 10px;
+
+            .selectButton {
+              display: flex;
+              width: 460px;
+              height: 70px;
+              border: 1px solid #dbdbdb;
+              border-radius: 4px;
+
+              .buttonProduction {
+                display: flex;
+                justify-content: space-between;
+                width: 410px;
+                font-size: 15px;
+                margin: auto;
+
+                .text {
+                  font-size: 15px;
+                }
+              }
+            }
+            .optionPrice {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-end;
+              margin: 20px 0;
+              font-weight: 700;
+
+              .priceLeft {
+                font-size: 13px;
+              }
+              .priceRight {
+                font-size: 20px;
+              }
+            }
+          }
+
+          .optionFooter {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+            .button {
+              width: 225px;
+              height: 55px;
+              border: 1px solid #34c5f0;
+              border-radius: 5px;
+              font-size: 17px;
+              font-weight: 700;
+
+              &.left {
+                color: #34c5f0;
+              }
+
+              &.right {
+                color: white;
+                background-color: #34c5f0;
+              }
+            }
+          }
         }
 
         .promotionBanner {
-          width: 460px;
-          height: 60px;
-          background-color: deepskyblue;
+          img {
+            width: 460px;
+            height: 55px;
+          }
         }
       }
     }
+  }
+
+  .productNav {
+    position: absolute;
+    @extend %flex-justify-center;
+    width: 100%;
+    left: 0;
+    color: #424242;
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+
+    ol {
+      width: 1200px;
+      display: flex;
+
+      .productNavCategory {
+        width: 130px;
+        font-weight: 15px;
+        padding: 18px;
+        text-align: center;
+
+        &.clicked {
+          border-bottom: 2px solid #34c5f0;
+        }
+      }
+    }
+  }
+
+  .productMain {
+    width: 1200px;
+    height: 500px;
+    margin-top: 170px;
   }
 }
