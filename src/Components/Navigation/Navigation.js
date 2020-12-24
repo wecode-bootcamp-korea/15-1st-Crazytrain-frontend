@@ -34,6 +34,10 @@ class Navigation extends Component {
           className="loggedinImage"
           src={localStorage.getItem("profile")}
           alt="sometihng"
+          onClick={() => {
+            localStorage.clear();
+            this.props.history.push("/");
+          }}
         />
         <span className="loggedinNickname">
           {localStorage.getItem("username")}

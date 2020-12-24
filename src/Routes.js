@@ -7,7 +7,7 @@ import Login from "./Pages/Account/Login/Login";
 import Signup from "./Pages/Account/Signup/Signup";
 import Product from "./Pages/Store/Product/Product";
 import Cart from "./Pages/Cart/Baguni";
-import WritingList from "./Components/Navigation/WritingList";
+import UploadImg from "./Pages/WritePost/UploadImg";
 
 class Routes extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class Routes extends React.Component {
           <Route exact path="/storemain" component={Store} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={Signup} />
-          <Route exact path="/Uploadimg" component={WritingList} />
+          <Route exact path="/Uploadimg" component={UploadImg} />
         </Switch>
       </Router>
     );
