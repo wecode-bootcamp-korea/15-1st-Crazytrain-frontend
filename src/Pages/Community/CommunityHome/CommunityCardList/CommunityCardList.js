@@ -8,7 +8,10 @@ class CommunityCardList extends React.Component {
     return (
       <div className="CommunityCardList">
         {communityCards?.map(communityCard => (
-          <CommunityCard key={communityCard.id} communityCard={communityCard} />
+          <CommunityCard
+            key={communityCard.post_id}
+            communityCard={communityCard}
+          />
         ))}
       </div>
     );

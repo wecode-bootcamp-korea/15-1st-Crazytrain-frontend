@@ -3,7 +3,7 @@ import CategorySidebar from "./CategoryHome/CategorySidebar/CategorySidebar";
 import CategoryContent from "./CategoryHome/CategoryContent/CategoryContent";
 import "./Category.scss";
 
-// const API = "http://10.168.2.136"; // 수한님 서버 통신 연습
+const API = "http://10.168.2.99";
 
 class Category extends Component {
   state = {
@@ -17,8 +17,7 @@ class Category extends Component {
 
   componentDidMount() {
     const { categoryId } = this.state;
-    // fetch(`http://10.168.2.99:8000/products?sub=1`) // 수한님 서버 통신 연습
-    //http://10.168.2.99:8000/products?sub=1
+    // fetch(`${API}/products?sub=1`)
     fetch("/data/store/data.json")
       .then(response => response.json())
       .then(result => {

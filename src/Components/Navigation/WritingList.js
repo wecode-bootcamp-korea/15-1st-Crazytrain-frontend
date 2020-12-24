@@ -46,7 +46,7 @@ const writingBoxContent = [
 
 class WritingList extends Component {
   goToUploadImg = index => {
-    this.props.history.push(`/UploadImg/${index}`);
+    this.props.history.push(`/UploadImg/`);
   };
   render() {
     return (

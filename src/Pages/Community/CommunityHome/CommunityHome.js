@@ -4,8 +4,8 @@ import CommunityCardList from "./CommunityCardList/CommunityCardList";
 import Navigation from "../../../Components/Navigation/Navigation";
 import Footer from "../../../Components/Footer/Footer";
 import "./CommunityHome.scss";
-
-const API = "http://10.168.2.120:8000";
+// const API = "http://10.168.2.120:8000";
+const API = "http://10.168.2.99:8000";
 
 class CommunityHome extends Component {
   state = {
@@ -23,6 +23,13 @@ class CommunityHome extends Component {
   }
 
   fetchData = () => {
+    // fetch("/data/community/community_card.json")
+    //   .then(res => res.json())
+    //   .then(res => {
+    //     this.setState({
+    //       communityCards: res.communityCards,
+    //     });
+    //   });
     fetch(`${API}/community/postlist${this.props.history.location.search}`)
       .then(res => res.json())
       .then(res => {
@@ -40,10 +47,7 @@ class CommunityHome extends Component {
         <main className="CommunityHome">
           <div className="communityWrapper">
             <FilterTap fetchData={this.fetchData} />
-            {/* <CommunityCardList
-              fetchMoreData={this.fetchMoreData}
-              communityCards={this.state.communityCards}
-            /> */}
+            <CommunityCardList communityCards={this.state.communityCards} />
           </div>
         </main>
         <Footer />

@@ -43,7 +43,7 @@ class BaguniContent extends Component {
       idx,
       count,
     } = this.props;
-    const { product_name, image_url, price } = cartItem;
+    const { product_name, image_url, option: price } = cartItem;
     return (
       <>
         <div className="baguniMain">
@@ -69,7 +69,6 @@ class BaguniContent extends Component {
                 <div className="baguniMid">
                   <div className="baguniInfoMidTop">
                     <span className="oneProduct">단품</span>
-                    <div className="deleteProduct">X</div>
                   </div>
                   <div className="baguniInfoMidBottom">
                     <select

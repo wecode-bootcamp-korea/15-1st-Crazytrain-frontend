@@ -5,14 +5,17 @@ import "./SalesArticle.scss";
 class SalesArticle extends Component {
   render() {
     const { article, type } = this.props;
-    article && console.log(article.images[0]);
 
     return (
       <article className="SalesArticle">
-        <Link to="/store/product">
+        <Link to={`/store/product/${article.id}`}>
           <div className="itemOverlay">
             <div className="imageWrap">
-              <img className={type} src={article.images[0]} alt={article.alt} />
+              <img
+                className={type}
+                src={article.product_image && article.product_image[0]}
+                alt={article.alt}
+              />
             </div>
             <div className={`itemContent ${type}`}>
               <div className="itemBrandName">{article.brandName}</div>
@@ -21,7 +24,7 @@ class SalesArticle extends Component {
                 {/* <span className="itemPriceRate">{article.itemPriceRate}%</span> */}
                 <span className="itemPriceRate">{30}%</span>
                 <span className="itemPricePrice">
-                  {article.option[0].price.toLocaleString()}
+                  {article.options && article.options[0].price.toLocaleString()}
                   {article.isPackage ? " 외" : " 원"}
                 </span>
               </div>

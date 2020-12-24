@@ -2,6 +2,7 @@
 
 .Product {
   @extend %flex-justify-center;
+  margin-bottom: 40px;
 
   .overviewContainer {
     width: 1200px;

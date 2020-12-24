@@ -5,7 +5,7 @@ import Navigation from "../../Components/Navigation/Navigation";
 import Footer from "../../Components/Footer/Footer";
 import "./Baguni.scss";
 
-const API = "";
+const API = "http://10.168.2.99:8000";
 
 class Baguni extends Component {
   state = {
@@ -53,34 +53,16 @@ class Baguni extends Component {
   checkInputCount = (value, idx) => {
     const newCount = [...this.state.count];
     newCount[idx] = Number(value);
-    this.setState({
-      count: newCount,
-    });
-    this.updateCart(API, idx);
+    this.setState(
+      {
+        count: newCount,
+      },
+      () => this.updateCart(idx)
+    );
   };
 
-  // addTest = API => {
-  //   fetch(API, {
-  //     method: "POST",
-  //     headers: {
-  //       Authorization: localStorage.getItem("token"),
-  //     },
-  //     body: JSON.stringify({
-  //       product_id: "2",
-  //       quantity: 1,
-  //       size_id: "1",
-  //       color_id: "1",
-  //       price_id: "1",
-  //     }),
-  //   })
-  //     .then(res => res.json())
-  //     .then(res => {
-  //       console.log(res);
-  //     });
-  // };
-
-  getTest = API => {
-    fetch(API, {
+  getCart = () => {
+    fetch(`${API}/shopping/cart`, {
       method: "GET",
       headers: {
         Authorization: localStorage.getItem("token"),
@@ -99,74 +81,41 @@ class Baguni extends Component {
       });
   };
 
-  updateCart = (API, targetIndex) => {
-    // console.log(
-    //   JSON.stringify({
-    //     counts: this.state.count[targetIndex].toString(),
-    //     cart_id: this.state.data[targetIndex].id.toString(),
-    //   })
-    // );
-    // fetch(
-    //   `http://10.168.2.99:8000/shopping/cart/${this.state.data[targetIndex].id}`,
-    //   {
-    //     method: "POST",
-    //     headers: {
-    //       Authorization: localStorage.getItem("token"),
-    //     },
-    //     body: JSON.stringify({
-    //       counts: this.state.count[targetIndex].toString(),
-    //       cart_id: this.state.data[targetIndex].id,
-    //     }),
-    //   }
-    // )
-    //   .then(res => res.json())
-    //   .then(res => {
-    //     console.log(res);
-    //   });
+  // deleteCart = () => {
+  //   fetch(`${API}/shopping/cart/delete1`, {
+  //     method: "DELETE",
+  //     headers: {
+  //       Authorization: localStorage.getItem("token"),
+  //     },
+  //     body: {
+  //       cart_id: 1,
+  //       user_id: 3,
+  //     },
+  //   })
+  //     .then(res => res.json())
+  //     .then(res => {
+  //       console.log(res);
+  //     });
+  // };
 
-    fetch(
-      `http://10.168.2.99:8000/shopping/cart/${this.state.data[targetIndex].id}`,
-      {
-        method: "POST",
-        headers: {
-          Authorization: localStorage.getItem("token"),
-        },
-        body: JSON.stringify({
-          counts: this.state.count[targetIndex].toString(),
-          cart_id: this.state.data[targetIndex].id,
-        }),
-      }
-    )
+  updateCart = targetIndex => {
+    fetch(`${API}/shopping/cart/${this.state.data[targetIndex].id}`, {
+      method: "PATCH",
+      headers: {
+        Authorization: localStorage.getItem("token"),
+      },
+      body: JSON.stringify({
+        counts: this.state.count[targetIndex],
+        cart_id: this.state.data[targetIndex].id,
+      }),
+    })
       .then(res => res.json())
-      .then(res => {
-        console.log(res);
-      });
+      .then(res => {});
   };
 
   componentDidMount = () => {
-    this.getTest("http://10.168.2.99:8000/shopping/cart");
-    // fetch("/data/navigation/data.json")
-    //   .then(response => response.json())
-    //   .then(result => {
-    //     this.setState({
-    //       data: result.data,
-    //       pick: Array(result.data.length).fill(false),
-    //       count: Array(result.data.length).fill(1),
-    //     });
-    //   });
-
-    // fetch("/data/navigation/data.json")
-    //   .then(res => res.json())
-    //   .then(res => {
-    //     const cartCount = res.CART_LIST.map(cartitem =>
-    //       cartitem ? cartitem.quantity : 1
-    //     );
-    //     this.setState({
-    //       data: res.CART_LIST,
-    //       pick: Array(res.CART_LIST.length).fill(false),
-    //       count: cartCount,
-    //     });
-    //   });
+    this.getCart();
+    // this.deleteCart();
   };
 
   render() {
@@ -209,7 +158,7 @@ class Baguni extends Component {
               <BaguniPrice
                 pick={pick}
                 count={count}
-                price={data.map(element => Number(element.price))}
+                price={data.map(element => Number(element.option))}
               />
             </div>
           </div>
