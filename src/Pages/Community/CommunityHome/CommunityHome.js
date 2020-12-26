@@ -1,49 +1,53 @@
 import React, { Component } from "react";
 import FilterTap from "./FilterMenu/FilterTap";
 import CommunityCardList from "./CommunityCardList/CommunityCardList";
+import Navigation from "../../../Components/Navigation/Navigation";
 import Footer from "../../../Components/Footer/Footer";
-import { API } from "../../../config";
 import "./CommunityHome.scss";
-
-const NUMBER_OF_ITEMS_TO_FETCH = 8;
+// const API = "http://10.168.2.120:8000";
+const API = "http://10.168.2.99:8000";
 
 class CommunityHome extends Component {
   state = {
     communityCards: [],
-    currentIndex: 0,
   };
 
   componentDidMount() {
-    this.fetchMoreData();
+    this.fetchData();
   }
 
-  fetchMoreData = () => {
-    fetch(`${API}/data/community/community_card.json`)
-      .then(response => response.json())
-      .then(result => {
-        const { communityCards, currentIndex } = this.state;
+  componentDidUpdate(prevProps, _) {
+    if (prevProps.location.search !== this.props.location.search) {
+      this.fetchData();
+    }
+  }
+
+  fetchData = () => {
+    // fetch("/data/community/community_card.json")
+    //   .then(res => res.json())
+    //   .then(res => {
+    //     this.setState({
+    //       communityCards: res.communityCards,
+    //     });
+    //   });
+    fetch(`${API}/community/postlist${this.props.history.location.search}`)
+      .then(res => res.json())
+      .then(res => {
         this.setState({
-          communityCards: communityCards.concat(
-            result.communityCards.slice(
-              currentIndex,
-              currentIndex + NUMBER_OF_ITEMS_TO_FETCH
-            )
-          ),
-          currentIndex: currentIndex + NUMBER_OF_ITEMS_TO_FETCH,
+          communityCards: res.result,
         });
       });
   };
 
   render() {
+    console.log(this.state.communityCards);
     return (
       <>
+        <Navigation />
         <main className="CommunityHome">
           <div className="communityWrapper">
-            <FilterTap />
-            <CommunityCardList
-              fetchMoreData={this.fetchMoreData}
-              communityCards={this.state.communityCards}
-            />
+            <FilterTap fetchData={this.fetchData} />
+            <CommunityCardList communityCards={this.state.communityCards} />
           </div>
         </main>
         <Footer />

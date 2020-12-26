@@ -1,29 +1,34 @@
 {
-  "data": [
+  "CART_LIST": [
     {
-      "title": "욕망의 항아리",
-      "productImage": "/images/navigation/a.png",
-      "productPricePcik": "50000원"
+      "product_name": "욕망의 항아리",
+      "image_url": "/images/navigation/a.png",
+      "price": 50000,
+      "quantity": 5
     },
     {
-      "title": "홀리 토니",
-      "productImage": "/images/navigation/c.png",
-      "productPricePcik": "40000원"
+      "product_name": "홀리 토니",
+      "image_url": "/images/navigation/c.png",
+      "price": 400000,
+      "quantity": 2
     },
     {
-      "title": "나서스",
-      "productImage": "/images/navigation/d.png",
-      "productPricePcik": "30000원"
+      "product_name": "나서스",
+      "image_url": "/images/navigation/d.png",
+      "price": 30000,
+      "quantity": 1
     },
     {
-      "title": "풍댕이",
-      "productImage": "/images/navigation/f.png",
-      "productPricePcik": "20000원"
+      "product_name": "풍댕이",
+      "image_url": "/images/navigation/f.png",
+      "price": 20000,
+      "quantity": 2
     },
     {
-      "title": "아이패드",
-      "productImage": "/images/navigation/g.png",
-      "productPricePcik": "10000원"
+      "product_name": "아이패드",
+      "image_url": "/images/navigation/g.png",
+      "price": 10000,
+      "quantity": 3
     }
   ]
 }

@@ -13,7 +13,7 @@ class Footer extends Component {
               고객센터
               <Icon />
             </div>
-            <div>1670-1234</div>
+            <div>5125-2471</div>
             <div>평일 09:00 ~ 18:00 (주말 & 공휴일 제외)</div>
           </header>
           <section>

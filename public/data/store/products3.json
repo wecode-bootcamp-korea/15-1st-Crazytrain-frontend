@@ -9,7 +9,7 @@
       "articleName": "의자를 팝니다.",
       "itemBadge": "특가",
       "isPackage": "true",
-      "product_image": ["../images/store/gaming_chair.jpg"],
+      "product_image": ["/images/store/gaming_chair.jpg"],
       "productName": "4인 소파",
       "options": [
         { "color": "빨강", "price": 10000, "color_id": 1, "option_id": 3 },

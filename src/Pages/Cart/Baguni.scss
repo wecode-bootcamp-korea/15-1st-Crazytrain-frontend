@@ -1,0 +1,274 @@
+@import "../../Styles/common.scss";
+.baguniFull {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+
+  .underNavigation {
+    width: 1200px;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+
+    .baguniLeftTop {
+      width: 700px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .contentAllCheckBtn {
+        display: flex;
+        padding-left: 20px;
+        .baguniCheckPointAll {
+          width: 22px;
+          height: 22px;
+        }
+      }
+      .baguniCheckBtn {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        line-height: 21px;
+        font-size: 15px;
+        color: #424242;
+      }
+      .baguniDeleteBtn {
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 12px;
+        color: #424242;
+        line-height: 1;
+        transition: opacity 0.1s;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+    }
+  }
+  .baguniMain {
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 700px;
+    height: 285px;
+
+    border: 1px solid #ebebeb;
+  }
+}
+.baguniContentFull {
+  margin-left: 15px;
+  width: 670px;
+  height: 100%;
+
+  .baguniContentFullTop {
+    height: 40px;
+    width: 100%;
+
+    padding: 10px 0;
+    border-bottom: 1px solid #ededed;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #424242;
+  }
+  .baguniContentFullMid {
+    position: relative;
+    height: 205px;
+
+    width: 100%;
+    display: flex;
+  }
+
+  .baguniCheckbox {
+    width: 22px;
+    height: 22px;
+  }
+  .baguniInfo {
+    margin-left: 10px;
+    height: 200px;
+    width: 625px;
+
+    .baguniInfoTop {
+      padding: 0 15px;
+      height: 70px;
+      width: 100%;
+      display: flex;
+
+      .productPicture {
+        margin-top: 5px;
+        width: 60px;
+        height: 60px;
+        border: 1px solid #ebebeb;
+        border-radius: 6px;
+      }
+
+      .priceExplain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 30px;
+        width: 100%;
+
+        .productName {
+          font-size: 17px;
+          font-weight: 500;
+          color: #000;
+          line-height: 21px;
+          cursor: pointer;
+        }
+        .productBtn {
+          color: #424242;
+          font-size: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+    .baguniMid {
+      height: 80px;
+      width: 100%;
+      border-radius: 6px;
+      background-color: #f5f5f5;
+      .baguniInfoMidTop {
+        @extend %flex-align-center;
+        justify-content: space-between;
+        width: 100%;
+        height: 40px;
+
+        padding: 0 15px;
+
+        .oneProduct {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 20px;
+          color: #424242;
+        }
+
+        .deleteProduct {
+          width: 12;
+          height: 12;
+          cursor: pointer;
+          color: #757575;
+        }
+      }
+      .baguniInfoMidBottom {
+        @extend %flex-align-center;
+        justify-content: space-between;
+        padding: 0 15px;
+        width: 100%;
+        height: 40px;
+
+        .howMany {
+          width: 80px;
+          height: 24px;
+          border-radius: 4px;
+          border: 1px solid #ebebeb;
+        }
+
+        .howMuchPrice {
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 24px;
+          color: #424242;
+        }
+      }
+    }
+  }
+  .productBottomPrice {
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .changeOptionBuyTime {
+      color: #424242;
+      font-family: inherit;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1;
+    }
+
+    .changeOption {
+      cursor: pointer;
+    }
+
+    .buyNow {
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+  .baguniInfoFoot {
+    height: 40px;
+    padding: 10px 0;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #424242;
+    border-top: 1px solid #ebebeb;
+  }
+}
+.baguniRight {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  .rigntContainerFull {
+    width: 400px;
+    height: 205px;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+  }
+  .full {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+    .productPayInfo {
+      padding-left: 10px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #424242;
+      &.boldText {
+        font-weight: 700;
+        color: black;
+      }
+    }
+
+    .productPricePayInfo {
+      padding-right: 10px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #424242;
+      &.powerText {
+        font-size: 24px;
+        font-weight: 700;
+        color: black;
+      }
+    }
+  }
+  .buyButton {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    line-height: 26px;
+    color: #fff;
+    background-color: #35c5f0;
+    border-color: #35c5f0;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #35c5f0;
+
+    &:hover {
+      background-color: #2984cf;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 import StoreCardList from "./StoreCardList/StoreCardList";
-import { API } from "../../../../../../config";
 import "./ContentRow.scss";
 
+const API = "http://10.168.2.99:8000";
 const FILTER_CATEGORYS = [
   "판매순",
   "인기순",
@@ -47,7 +47,7 @@ class ContentRow extends Component {
   };
 
   fetchMoreData = () => {
-    fetch(`${API}/data/store/products2.json`)
+    fetch(`${API}/products?sub=1`)
       .then(response => response.json())
       .then(result => {
         const {

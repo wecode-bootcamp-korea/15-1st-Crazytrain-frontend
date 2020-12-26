@@ -1,23 +1,14 @@
 import React, { Component } from "react";
-import "./Navigation.scss";
 import { withRouter } from "react-router-dom";
 import CommunityPage from "./CommunityPage";
 import StorePage from "./StorePage";
 import WritingList from "./WritingList";
 import OutsideClickHandler from "react-outside-click-handler";
+import { ReactComponent as CartIcon } from "./cart_icon.svg";
+import "./Navigation.scss";
 
 class Navigation extends Component {
-  constructor() {
-    super();
-    this.state = { communityNavToggle: true, showButtonBox: false };
-  }
-  goToLogin = () => {
-    this.props.history.push("/Login");
-  };
-
-  goToSignUp = () => {
-    this.props.history.push("/Signup");
-  };
+  state = { communityNavToggle: true, showButtonBox: false };
 
   toggleSubNav = () => {
     this.setState({ communityNavToggle: !this.state.communityNavToggle });
@@ -36,8 +27,38 @@ class Navigation extends Component {
   };
 
   render() {
-    const { goToLogin, goToSignUp } = this;
     const { showWriteBox } = this;
+    const headerRight = localStorage.getItem("token") ? (
+      <>
+        <img
+          className="loggedinImage"
+          src={localStorage.getItem("profile")}
+          alt="sometihng"
+          onClick={() => {
+            localStorage.clear();
+            this.props.history.push("/");
+          }}
+        />
+        <span className="loggedinNickname">
+          {localStorage.getItem("username")}
+        </span>
+      </>
+    ) : (
+      <>
+        <span
+          className="navLogin"
+          onClick={() => this.props.history.push("/login")}
+        >
+          로그인
+        </span>
+        <span
+          className="navSignUp"
+          onClick={() => this.props.history.push("/signup")}
+        >
+          회원가입
+        </span>
+      </>
+    );
     return (
       <div>
         <div className="superContainer">
@@ -45,16 +66,25 @@ class Navigation extends Component {
             <div className="navHead">
               <div className="navLogo">
                 <img
-                  className="navLogoImg"
+                  onClick={() => this.props.history.push("/")}
+                  className="navLogoImg addCursor"
                   src="/images/navigation/navToday.png"
                   alt="homeLogo"
                 />
               </div>
               <div className="navCategory">
-                <button className="category" onMouseEnter={this.toggleGoTrue}>
+                <button
+                  className="category"
+                  onMouseEnter={this.toggleGoTrue}
+                  onClick={() => this.props.history.push("/")}
+                >
                   커뮤니티
                 </button>
-                <button className="store" onMouseEnter={this.toggleSubNav}>
+                <button
+                  className="store"
+                  onMouseEnter={this.toggleSubNav}
+                  onClick={() => this.props.history.push("/storemain")}
+                >
                   스토어
                 </button>
               </div>
@@ -72,17 +102,8 @@ class Navigation extends Component {
                 />
               </div>
               <div className="navHeadRight">
-                <img
-                  className="navCart"
-                  src="/images/navigation/cart.png"
-                  alt="cart"
-                />
-                <span className="navLogin" onClick={goToLogin}>
-                  로그인
-                </span>
-                <span className="navSignUp" onClick={goToSignUp}>
-                  회원가입
-                </span>
+                <CartIcon onClick={() => this.props.history.push("/cart")} />
+                {headerRight}
                 <div className="navRightButton">
                   <OutsideClickHandler
                     onOutsideClick={() => this.onClickOutside()}

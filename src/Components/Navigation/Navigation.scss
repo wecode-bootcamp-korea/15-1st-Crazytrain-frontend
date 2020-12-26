@@ -7,9 +7,11 @@
   right: 0;
   height: 80px;
   border-bottom: 1px solid #dbdbdb;
+  background-color: white;
   width: 100%;
   z-index: 1000000;
 }
+
 .navHead {
   display: flex;
   align-items: center;
@@ -18,22 +20,21 @@
   width: 1200px;
 
   img {
-    width: 74px;
-    height: 40px;
+    height: 30px;
   }
 
   .navCategory {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     letter-spacing: -0.4px;
-    margin-left: 50px;
+    margin-left: 20px;
     text-decoration: none;
     color: #4b4b4b;
     width: 250px;
     height: 80px;
 
     button {
-      margin: 6px 10px 0;
       padding: 14px 6px;
       font-weight: 700;
       font-size: 18px;
@@ -84,17 +85,59 @@
   }
 
   .navHeadRight {
-    margin-left: 130px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 360px;
     height: 80px;
+    margin-left: 130px;
+
+    img.loggedinImage {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    span.loggedinNickname {
+      font-weight: bold;
+      color: #757575;
+      cursor: pointer;
+
+      &:hover {
+        color: #34c5ef;
+      }
+    }
+
+    .svg-icon {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      cursor: pointer;
+      border-radius: 50%;
+
+      &:hover {
+        background-color: #35c4f0;
+      }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: #757575;
+    }
+
+    .svg-icon circle {
+      stroke: #4691f6;
+      stroke-width: 1;
+    }
 
     .navLogin {
       position: relative;
       height: 20px;
-      margin-top: 30px;
-      margin-left: 20px;
       font-size: 15px;
       font-weight: 700;
       line-height: 20px;
@@ -120,20 +163,6 @@
     }
     .navSignUp:hover {
       color: #35c4f0;
-    }
-
-    .navCart {
-      position: relative;
-      margin-top: 25px;
-      margin-left: 10px;
-      width: 24px;
-      height: 24px;
-      cursor: pointer;
-      overflow: hidden;
-      border-radius: 50%;
-    }
-    img:hover {
-      background-color: #35c4f0;
     }
   }
   .navRightButton {
@@ -247,6 +276,7 @@
     left: calc(50% - 5px);
   }
   .boxElement {
+    margin-left: 5px;
     width: 322px;
     height: 71px;
 
@@ -254,11 +284,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 340px;
+      width: 322px;
       height: 67px;
-      padding-top: 27px;
+      padding-bottom: 20px;
+      padding-top: 30px;
       padding-left: 20px;
       margin-top: 2.5px;
+      cursor: pointer;
     }
     .writingListMap:hover {
       background-color: #f7f5f5;

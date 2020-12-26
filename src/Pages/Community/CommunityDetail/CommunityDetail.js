@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+import Navigation from "../../../Components/Navigation/Navigation";
+import Footer from "../../../Components/Footer/Footer";
 import CommunityDetailMain from "./CommunityDetailMain/CommunityDetailMain";
 import CommunityDetailAside from "./CommunityDetailAside/CommunityDetailAside";
+
 import { API } from "../../../config";
 import "./CommunityDetail.scss";
 
@@ -47,25 +50,27 @@ class CommunityDetail extends Component {
     } = this.state.posts;
 
     return (
-      <div className="CommunityDetail">
-        <div className="CommunityDetailWrapper">
-          <CommunityDetailMain
-            addComment={this.addComment}
-            categories={categories}
-            contents={contents}
-            comments={comments}
-          />
-          <CommunityDetailAside
-            likeNum={likeNum}
-            bookmarkNum={bookmarkNum}
-            writerName={writerName}
-            writerProfileImage={writerProfileImage}
-            otherFeeds={otherFeeds}
-          />
+      <>
+        <Navigation />
+        <div className="CommunityDetail">
+          <div className="CommunityDetailWrapper">
+            <CommunityDetailMain
+              addComment={this.addComment}
+              categories={categories}
+              contents={contents}
+              comments={comments}
+            />
+            <CommunityDetailAside
+              likeNum={likeNum}
+              bookmarkNum={bookmarkNum}
+              writerName={writerName}
+              writerProfileImage={writerProfileImage}
+              otherFeeds={otherFeeds}
+            />
+          </div>
         </div>
-
-        <footer className="CommunityFooter">Footer here!</footer>
-      </div>
+        <Footer />
+      </>
     );
   }
 }

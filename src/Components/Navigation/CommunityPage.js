@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 
 const community_List = [
   {
@@ -40,7 +41,11 @@ class CommunityPage extends Component {
     return (
       <div className="CommunitySubNav">
         {community_List.map((element, index) => (
-          <div key={index} className="communitySubNavContent">
+          <div
+            key={index}
+            className="communitySubNavContent"
+            onClick={() => this.props.history.push("/")}
+          >
             {element.name}
           </div>
         ))}
@@ -48,5 +53,4 @@ class CommunityPage extends Component {
     );
   }
 }
-
-export default CommunityPage;
+export default withRouter(CommunityPage);

@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { API } from "../../../config";
+import Navigation from "../../../Components/Navigation/Navigation";
+import Footer from "../../../Components/Footer/Footer";
+
 import "./Product.scss";
 
 const NAV_CATEGORIES = ["상품정보", "리뷰", "문의", "배송/환불", "추천"];
+const API = "http://10.168.2.99:8000";
 
 class Product extends Component {
   state = {
@@ -12,24 +15,26 @@ class Product extends Component {
   };
 
   componentDidMount() {
-    // fetch("http://10.168.2.99:8000/products/2")
-    fetch(`${API}/data/store/products3.json`)
+    this.getData();
+  }
+
+  componentDidUpdate() {}
+
+  getData = () => {
+    fetch(`${API}/products/${this.props.match.params.id}`)
       .then(response => response.json())
       .then(result => {
         this.setState({
           productDetail: result.productdetail[0],
         });
       });
-  }
+  };
 
   addCart = () => {
-    console.log(123);
-    fetch("http://10.168.2.99:8000/shopping/cart", {
+    fetch(`${API}/shopping/cart`, {
       method: "POST",
       headers: {
-        // Authorization: localStorage.getItem("token"),
-        Authorization:
-          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.NwpC8Kujp2xApfX0n-OLf34ouXyZjAU0b3bBoH86itY",
+        Authorization: localStorage.getItem("token"),
       },
       body: JSON.stringify({
         product_id: this.state.productDetail.id,
@@ -40,16 +45,15 @@ class Product extends Component {
     })
       .then(res => res.json())
       .then(res => {
-        console.log(res);
+        alert("장바구니에 담겼읍니다.");
       });
   };
 
   render() {
     const { productDetail } = this.state;
-    console.log(productDetail);
-
     return (
       <>
+        <Navigation />
         <div className="Product">
           <div>
             <div className="overviewContainer">
@@ -195,7 +199,11 @@ class Product extends Component {
                       </button>
                       <div className="optionPrice">
                         <div className="priceLeft">주문금액</div>
-                        <div className="priceRight">{0}원</div>
+                        <div className="priceRight">
+                          {productDetail.options &&
+                            productDetail.options[0].price.toLocaleString()}
+                          원
+                        </div>
                       </div>
                     </div>
                     <div className="optionFooter">
@@ -226,10 +234,11 @@ class Product extends Component {
             </div>
 
             {/* <div className="productMain"></div> */}
-            <img src={productDetail.infoImage} alt="test" />
+            {/* <img src={productDetail.infoImage} alt="test" /> */}
             <div>{productDetail.productName}</div>
           </div>
         </div>
+        <Footer />
       </>
     );
   }
