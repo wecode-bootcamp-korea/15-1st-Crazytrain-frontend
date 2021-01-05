@@ -24,15 +24,15 @@ class CommunityHome extends Component {
 
   fetchData = () => {
     // fetch("/data/community/community_card.json")
-    //   .then(res => res.json())
-    //   .then(res => {
+    //   .then((res) => res.json())
+    //   .then((res) => {
     //     this.setState({
     //       communityCards: res.communityCards,
     //     });
     //   });
-    fetch(`${API}/community/postlist${this.props.history.location.search}`)
-      .then(res => res.json())
-      .then(res => {
+    fetch(`${API}/community/postlist${this.props.location.search}`)
+      .then((res) => res.json())
+      .then((res) => {
         this.setState({
           communityCards: res.result,
         });

@@ -108,9 +108,7 @@ class Baguni extends Component {
         counts: this.state.count[targetIndex],
         cart_id: this.state.data[targetIndex].id,
       }),
-    })
-      .then(res => res.json())
-      .then(res => {});
+    });
   };
 
   componentDidMount = () => {

@@ -1,5 +1,8 @@
 @import "../../../../../Styles/common.scss";
 
+* {
+  box-sizing: border-box;
+}
 li.SubImage {
   margin: 30px 15px 50px 0;
 
@@ -7,13 +10,13 @@ li.SubImage {
     width: 100px;
     height: 100px;
     border-radius: 30px;
-    border: 1px solid #eaeaea;
+    border: 4px solid #eaeaea;
     border-radius: 30px;
     cursor: pointer;
 
     &:hover,
     &.makeHighlight {
-      border: 2px solid #6ed6f3;
+      border: 4px solid #6ed6f3;
     }
   }
 }

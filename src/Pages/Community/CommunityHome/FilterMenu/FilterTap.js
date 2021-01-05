@@ -10,12 +10,11 @@ class FilterTap extends Component {
     selectedFilter: [],
   };
 
-  makeQueryString = filterList => {
-    return filterList.reduce(
+  makeQueryString = filterList =>
+    filterList.reduce(
       (acc, curr, idx) => acc + `&${curr.query}=${curr.id}`,
       ""
     );
-  };
 
   addFilter = tap => {
     const newFilter = [...this.state.selectedFilter];
